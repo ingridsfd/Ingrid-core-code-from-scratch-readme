@@ -26,11 +26,11 @@
 3. [x] **Pseudocode Currency Converter exercise.**
 **Steps in my own words:**
    Definition of the algorithm: To convert dollars (USD) to bitcoin (BTC).
-   1. Read the dollar rate 
-   2. Search for the last updated bitcoin rate
-   3. Read bitcoin rate
-   4. Multiply dollar rate value * the last updated bitcoin rate value
-   5. Result - Output
+   1. Read the dollar rate.
+   2. Search for the last updated bitcoin rate.
+   3. Read bitcoin rate.
+   4. Multiply dollar rate value * the last updated bitcoin rate value.
+   5. Result - Output.
 **Steps in algorithm language would be:**
   Starting point: START
   READ dollar rate
