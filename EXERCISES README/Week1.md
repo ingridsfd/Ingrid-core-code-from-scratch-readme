@@ -89,7 +89,7 @@ Instructions
 
 
 2. Create a program that displays your name. Code pasted from Mars 4.5:
-´´´
+```
   .data
         message: .asciiz "\nIngrid Fonoy\n"
   .text
@@ -97,7 +97,7 @@ Instructions
               li $v0, 4
               la $a0, message
               syscall
-´´´
+```
 ## Thursday 21 July, 2022
 
 1. [ ] Print special numbers exercise.
