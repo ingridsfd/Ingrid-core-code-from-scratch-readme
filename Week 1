@@ -54,9 +54,39 @@ Steps in algorithm language would be:
 My birthday is October 14, 1997 = 14/10/1997
 Answer in binary numbers: 1110 | 1010 | 11111001101
  
-2. [ pending ] MIPS exercise.
+2. [✅] MIPS exercise.
 Instructions
 1. Create a program that adds any two given numbers provided by the user. Code pasted from Mars 4.5:
+ .data
+	      number1: .asciiz "\nIngrese el primer numero: "
+	      number2: .asciiz "\nIngrese el segundo numero: " 
+	      number3: .asciiz "\nLa suma es: " 
+  .text
+              li $v0, 4
+              la $a0, number1
+              syscall
+
+              li $v0, 5
+              syscall
+              move $t0, $v0
+              
+              li $v0, 4
+              la $a0, number2
+              syscall
+              
+              li $v0, 5
+              syscall
+              move $t1, $v0
+              
+              add $t1, $t2, $t3
+              
+              li $v0,4
+              la $a0,number3
+              syscall
+              
+              li $v0,1
+              la $a0,($t2)
+              syscall
 
 
 2. Create a program that displays your name. Code pasted from Mars 4.5:
