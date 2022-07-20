@@ -89,6 +89,7 @@ Instructions
 
 
 2. Create a program that displays your name. Code pasted from Mars 4.5:
+
   .data
         message: .asciiz "\nIngrid Fonoy\n"
   .text
