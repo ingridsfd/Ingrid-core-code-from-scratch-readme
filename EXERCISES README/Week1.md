@@ -1,4 +1,3 @@
-<-- HEADINGS -->
 # Week Challenges
 
 ## Tuesday 19 July, 2022
