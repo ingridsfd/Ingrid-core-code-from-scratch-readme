@@ -2,15 +2,31 @@
 
 ## Tuesday 19 July, 2022
 
-1. ✅ Base on this reading and this video, create an explanation about Interpreted And Compiled Programming Languages in your README.
-  Interpreted and Compiled Programming Languages 
-  Explanation: 
-2. [ ] Is Java compiled or interpreted, or both?, check the sources and answer the question in your README.
-3. [ ] Video Source.
-4. [ ] Blog Source.
-5. [ ] StackOverflow Source.
-6. [ ] Pseudocode Currency Converter exercise.
-7. [ ] Pseudocode Currency Converter exercise.
+1. [✅] Base on this reading and this video, create an explanation about Interpreted And Compiled Programming Languages in your README.
+  Interpreted and Compiled Programming Languages.
+  
+  Overall Explanation: Programs need to be run by general CPU hardwares.
+  Depending on the main target or function of a software or application, we might choose between 3 archetypes of programming languages for working in their development or testing:
+  1. Compiling the source code: These are the files and codes that do not move easily from one computer device to another to work on it.
+    Program examples: C, C++, Objective-C.
+  2. Interpreting code: These are the files and codes that do move more freely from device to device to work on them.
+    Examples are: PHP, JavasScript.
+  3. Just in time or Jit Compilation: Is when the files of the coding achieve the longest expansion between several 'flexible' devices.
+  Examples of Hybrid programs: Java, C#, VB.NET, Python.
+  
+2. [✅] Is Java compiled or interpreted, or both?, check the sources and answer the question in your README.
+    Answer: It's an hybrid so it's possible to be run by a hardware CPU.
+    Mainly, it turns the
+    - Machine language: binary code (compiled languages)
+    into
+    - Human language: Coding and programming (assembly language).
+    Bytecode: abstract code, that machine language reads. Is treated like a binary file. 
+  Are there any software examples of these archetypes?
+    
+3. [ ] Pseudocode Currency Converter exercise.
+    
+
+4. [ ] Pseudocode Currency Converter exercise.
 
 ## Wednesday 20 July, 2022
 
