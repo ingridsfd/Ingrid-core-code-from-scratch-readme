@@ -1,6 +1,6 @@
 # Welcome to my README:
 
-## Index of my tracking tasks
+## Index of my tracking taskss
 
 - Week 1 : [Introduction to programming & Javascript](../exercises readme/week1.md)
 - Week 2 : [Javascript]
