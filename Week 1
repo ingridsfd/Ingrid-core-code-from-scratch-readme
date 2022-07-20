@@ -12,7 +12,7 @@
   2. Interpreting code: These are the files and codes that do move more freely from device to device to work on them.
     Examples are: PHP, JavasScript.
   3. Just in time or Jit Compilation: Is when the files of the coding achieve the longest expansion between several 'flexible' devices.
-  Examples of Hybrid programs: Java, C#, VB.NET, Python.
+  Examples of Hybrid programs: Java, C#, VB.NET, Python. (swift, PHP?)
   
 2. [✅] Is Java compiled or interpreted, or both?, check the sources and answer the question in your README.
     Answer: It's an hybrid so it's possible to be run by a hardware CPU.
@@ -23,7 +23,7 @@
     Bytecode: abstract code, that machine language reads. Is treated like a binary file. 
   Are there any software examples of these archetypes?
     
-3. [ ] Pseudocode Currency Converter exercise.
+3. [✅] Pseudocode Currency Converter exercise.
 Steps in my own words:
    Definition of the algorithm: To convert dollars (USD) to bitcoin (BTC).
    1. Read the dollar rate 
@@ -40,8 +40,11 @@ Steps in algorithm language would be:
   Assignation: <-- (??) se usa igual que el símbolo de "="?? DUDA
   End point: END
  
-4. [ ] Learn about High and Low level languages.
-    Notes:
+4. [✅] Learn about High and Low level languages.
+    Notes: 
+    Assembly language: hardware redabale language.
+    Machine code: binary.
+    Programs like COBOL, Fortran are way too abstract.
 
 ## Wednesday 20 July, 2022
 
