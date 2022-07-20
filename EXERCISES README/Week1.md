@@ -50,8 +50,9 @@
 ## Wednesday 20 July, 2022
 
 1. [x] **Your date of birth in the matrix? exercise.**
-My birthday is October 14, 1997 = 14/10/1997.
-**Answer in binary numbers: 1110 | 1010 | 11111001101**
+| My Birthday | Binary code |
+| ----------- | ----------- |
+| 14.10.1997 | 1110.1010.11111001101 |
  
 2. [x] **MIPS exercise.**
 Instructions
