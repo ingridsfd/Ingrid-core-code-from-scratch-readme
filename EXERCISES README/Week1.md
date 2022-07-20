@@ -50,9 +50,13 @@
 ## Wednesday 20 July, 2022
 
 1. [x] **Your date of birth in the matrix? exercise.**
-| My Birthday | Binary code |
-| ----------- | ----------- |
-| 14.10.1997 | 1110.1010.11111001101 |
+
+
+| Birth Date      | Binary Code |
+| -----------     | ----------- |
+| 14.10.1997      | 1110.1010.  |
+|      unknown    |11111001101  |
+ 
  
 2. [x] **MIPS exercise.**
 Instructions
