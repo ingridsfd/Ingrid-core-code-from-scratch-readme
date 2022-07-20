@@ -56,9 +56,17 @@ Answer in binary numbers: 1110 | 1010 | 11111001101
  
 2. [ pending ] MIPS exercise.
 Instructions
-1. Create a program that adds any two given numbers provided by the user. Paste the code:
+1. Create a program that adds any two given numbers provided by the user. Code pasted from Mars 4.5:
 
-2. Create a program that displays your name. Paste the code:
+
+2. Create a program that displays your name. Code pasted from Mars 4.5:
+  .data
+        message: .asciiz "\nIngrid Fonoy\n"
+  .text
+        main:
+              li $v0, 4
+              la $a0, message
+              syscall
 
 ## Thursday 21 July, 2022
 
