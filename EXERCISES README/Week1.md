@@ -2,8 +2,8 @@
 
 ## Tuesday 19 July, 2022
 
-1. [x] ==**Base on this reading and this video, create an explanation about Interpreted And Compiled Programming Languages in your README.
-  Interpreted and Compiled Programming Languages.**==
+1. [x] >**Base on this reading and this video, create an explanation about Interpreted And Compiled Programming Languages in your README.
+  Interpreted and Compiled Programming Languages.**
   
   **Overall Explanation:** Programs need to be run by general CPU hardwares.
   Depending on the main target or function of a software or application, we might choose between 3 archetypes of programming languages for working in their development or testing:
