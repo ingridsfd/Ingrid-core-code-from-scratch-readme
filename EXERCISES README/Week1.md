@@ -55,9 +55,9 @@
 | Birth Date      | Binary Code |
 | -----------     | ----------- |
 | 14.10.1997      | 1110.1010.  |
-|      unknown    |11111001101  |
+| Year in binary  |11111001101  |
  
- 
+
 2. [x] **MIPS exercise.**
 Instructions
 1. Create a program that adds any two given numbers provided by the user. Code pasted from Mars 4.5:
