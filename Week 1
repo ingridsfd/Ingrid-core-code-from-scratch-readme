@@ -24,13 +24,29 @@
   Are there any software examples of these archetypes?
     
 3. [ ] Pseudocode Currency Converter exercise.
-    
-
-4. [ ] Pseudocode Currency Converter exercise.
+Steps in my own words:
+   Definition of the algorithm: To convert dollars (USD) to bitcoin (BTC).
+   1. Read the dollar rate 
+   2. Search for the last updated bitcoin rate
+   3. Read bitcoin rate
+   4. Multiply dollar rate value * the last updated bitcoin rate value
+   5. Result - Output
+Steps in algorithm language would be:
+  Starting point: START
+  READ dollar rate
+  Input: GET last updated bitcoin rate (https://www.coindesk.com/price/bitcoin/)
+  READ
+  PRINT dollar Rate * Bitcoin rate
+  Assignation: <-- (??) se usa igual que el símbolo de "="?? DUDA
+  End point: END
+ 
+4. [ ] Learn about High and Low level languages.
+    Notes:
 
 ## Wednesday 20 July, 2022
 
 1. [ ] Your date of birth in the matrix? exercise.
+
 2. [ ] MIPS exercise.
 
 ## Thursday 21 July, 2022
