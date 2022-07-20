@@ -2,7 +2,7 @@
 
 ## Index of my tracking tasks
 
-- Week 1 : [Introduction to programming & Javascript](../EXERCISES README/week1.md)
+- Week 1 : [Introduction to programming & Javascript](../exercises readme/week1.md)
 - Week 2 : [Javascript]
 - Week 3 : [Javascript]
 - Week 4 : Javascript & Pause Day
