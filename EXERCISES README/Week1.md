@@ -105,6 +105,8 @@ Instructions
 ```
 ## Thursday 21 July, 2022
 
+==Example of highlight==
+
 1. [ ] Print special numbers exercise.
 2. [ ] Bad Code exercise.
 3. [ ] Bad Code 2 exercise.
