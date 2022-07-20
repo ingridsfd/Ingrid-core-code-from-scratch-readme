@@ -45,6 +45,7 @@ Steps in algorithm language would be:
     Assembly language: hardware redabale language.
     Machine code: binary.
     Programs like COBOL, Fortran are way too abstract.
+    Rely better on functions. Fox example, C > Assembly is low level language. Python > C is low level.
 
 ## Wednesday 20 July, 2022
 
