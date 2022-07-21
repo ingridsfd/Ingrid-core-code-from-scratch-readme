@@ -61,6 +61,7 @@
 2. [x] **MIPS exercise.**
 Instructions
 1. Create a program that adds any two given numbers provided by the user. Code pasted from Mars 4.5:
+```
   .data
 	      number1: .asciiz "\nIngrese el primer numero: "
 	      number2: .asciiz "\nIngrese el segundo numero: "
@@ -87,7 +88,8 @@ Instructions
               li $v0, 1
               move $a0, $t0
               syscall
-              
+```
+```      
  .data
 	      result_message: .asciiz "\nEl resultado es: "
   .text
@@ -104,7 +106,7 @@ Instructions
               li $v0, 1
               move $a0, $t2
               syscall
-
+```
 
 2. Create a program that displays your name. Code pasted from Mars 4.5:
 ```
