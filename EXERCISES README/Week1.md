@@ -61,35 +61,48 @@
 2. [x] **MIPS exercise.**
 Instructions
 1. Create a program that adds any two given numbers provided by the user. Code pasted from Mars 4.5:
- .data
+  .data
 	      number1: .asciiz "\nIngrese el primer numero: "
-	      number2: .asciiz "\nIngrese el segundo numero: " 
-	      number3: .asciiz "\nLa suma es: " 
+	      number2: .asciiz "\nIngrese el segundo numero: "
   .text
+	      main:
               li $v0, 4
               la $a0, number1
               syscall
 
               li $v0, 5
               syscall
+
               move $t0, $v0
-              
+
               li $v0, 4
               la $a0, number2
               syscall
-              
+
               li $v0, 5
               syscall
+
               move $t1, $v0
-              
-              add $t1, $t2, $t3
-              
-              li $v0,4
-              la $a0,number3
+
+              li $v0, 1
+              move $a0, $t0
               syscall
               
-              li $v0,1
-              la $a0,($t2)
+ .data
+	      result_message: .asciiz "\nEl resultado es: "
+  .text
+	      
+              li $t0, 30
+              li $t1, 50
+
+              add $t2, $t0, $t1
+
+              li $v0, 4
+              la $a0 result_message
+              syscall
+
+              li $v0, 1
+              move $a0, $t2
               syscall
 
 
