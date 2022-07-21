@@ -32,6 +32,7 @@
    4. Multiply dollar rate value * the last updated bitcoin rate value.
    5. Result - Output.
 **Steps in algorithm language would be:**
+```
   Starting point: START
   READ dollar rate
   Input: GET last updated bitcoin rate (https://www.coindesk.com/price/bitcoin/)
@@ -39,13 +40,16 @@
   PRINT dollar Rate * Bitcoin rate
   Assignation: <-- (??) se usa igual que el símbolo de "="?? DUDA
   End point: END
+ ```
  
 4. [x] **Learn about High and Low level languages.**
+```
     **Notes:** 
     Assembly language: hardware redabale language.
     Machine code: binary.
     Programs like COBOL, Fortran are way too abstract.
     Rely better on functions. Fox example, C > Assembly is low level language. Python > C is low level.
+```
 
 ## Wednesday 20 July, 2022
 
