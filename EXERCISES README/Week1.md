@@ -38,10 +38,10 @@
   Input: GET last updated bitcoin rate (https://www.coindesk.com/price/bitcoin/)
   READ
   PRINT dollar Rate * Bitcoin rate
-  Assignation: <-- (??) se usa igual que el símbolo de "="?? DUDA
+  Assignation: <-- lo que teclea el usuario es llevado al programa 
   End point: END
  ```
- 
+
 4. [x] **Learn about High and Low level languages.**
 ```
     **Notes:** 
