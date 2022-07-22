@@ -223,10 +223,4 @@ if (n % 10 == 0) {
 ```
 
 7. [pending] Follow Git Course.
-Tracking progress: 
-1 [x] Part 1 
-2 [ ] Part 2 
-3 [ ] Part 3 
-4 [ ] Part 4 
-5 [ ] Part 5
-6 [ ] Part 6
+Tracking progress:
