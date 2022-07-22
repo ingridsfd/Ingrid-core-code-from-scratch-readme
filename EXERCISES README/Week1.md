@@ -130,7 +130,7 @@ Instructions
 **Exercise Description** 
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise.
 
-Even numbers are: (2, 12, 22, 32, 42, 52, 62, 72, 82, 92, 4, 24...100)
+Even numbers are: 2, 12, 22, 32, 42, 52, 62, 72, 82, 92, 4, 24...100
 My code answer: 
 ```
 let str = '';
@@ -143,5 +143,16 @@ console.log(i);
 // expected output: "012345678"
 ```
 3. [ ] Bad Code exercise.
-4. [ ] Bad Code 2 exercise.
-5. [ ] Follow Git Course.
+**Exercise Description**
+The code shown below is not working in the right way, as a task you must find the error made by the developer who programmed this code and correct it, for this exercise you must explain what the error is and place the correct code.
+```
+var cond = false;
+
+if ((cond = true)) {
+  console.log('The cond variable is true');
+} else {
+  console.log('The cond variable is false');
+}
+```
+5. [ ] Bad Code 2 exercise.
+6. [ ] Follow Git Course.
