@@ -127,6 +127,12 @@ Instructions
 ==Example of highlight==
 
 1. [ ] Print special numbers exercise.
-2. [ ] Bad Code exercise.
-3. [ ] Bad Code 2 exercise.
-4. [ ] Follow Git Course.
+**Exercise Description** 
+In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise
+My code answer:
+```
+
+
+3. [ ] Bad Code exercise.
+4. [ ] Bad Code 2 exercise.
+5. [ ] Follow Git Course.
