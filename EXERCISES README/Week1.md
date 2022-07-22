@@ -221,7 +221,25 @@ if (n % 10 == 0) {
   console.log('This number is multiple of 10');
 }
 ```
+FIXED CODE WOULD BE:
+```Javascript
+var n = 100;
 
+if (n == 100) {
+  console.log('This is a special number!');
+}
+if (n < 1000) {
+  console.log('This number is almost especial');
+} else {
+  console.log('This number is almost especial');
+}
+if (n % 10) {
+  console.log('This number is almost especial');
+}
+if (n != 1000) {
+  console.log('This number is almost especial');
+}
+```
 7. [pending] Follow Git Course.
 Tracking progress:
 1. [x] Part 1
