@@ -154,5 +154,8 @@ if ((cond = true)) {
   console.log('The cond variable is false');
 }
 ```
+Fixed code would be:
+```
+
 5. [ ] Bad Code 2 exercise.
 6. [ ] Follow Git Course.
