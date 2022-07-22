@@ -204,7 +204,7 @@ if (cond) {
 }
 ```
 **Answer Description:**
-Considering the fact that we want to print the variable 'false' in the first place. It ends up printing the opposite, and it's not considering the right instruction to print it.
+Considering the fact that we want to print the variable 'false' in the first place, it ends up printing the opposite, and it's not considering the right instruction to print it.
 
 5. [pending] Bad Code 2 exercise.
 **Exercise Description**
