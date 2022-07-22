@@ -124,15 +124,13 @@ Instructions
 ```
 ## Thursday 21 July, 2022
 
-==Example of highlight==
-
 1. [x] Print special numbers exercise.
 **Exercise Description** 
 In this exercise you must use an iterative flow control to be able to print all the even numbers in the range of numbers from 0 to 100. Remember that you should not print each number, you should use a flow control structure to perform the exercise.
 
 Even numbers are: 2, 12, 22, 32, 42, 52, 62, 72, 82, 92, 4, 24...100
 My code answer: 
-```
+```javascript
 let str = '';
 
 for (let i = 0; i <= 100; i++) {
@@ -145,7 +143,7 @@ console.log(i);
 3. [ ] Bad Code exercise.
 **Exercise Description**
 The code shown below is not working in the right way, as a task you must find the error made by the developer who programmed this code and correct it, for this exercise you must explain what the error is and place the correct code.
-```
+```Javascript
 var cond = false;
 
 if ((cond = true)) {
