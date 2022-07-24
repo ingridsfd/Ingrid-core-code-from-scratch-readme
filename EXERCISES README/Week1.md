@@ -226,21 +226,18 @@ if (n % 10 == 0) {
 ```
 FIXED CODE WOULD BE:
 ```Javascript
-var n = 100;
-
-if (n == 100) {
-  console.log('This is a special number!');
+var n=100;
+if(n==100) {
+  console.log('This is a special numer!');
 }
-if (n < 1000) {
-  console.log('This number is almost especial');
-} else {
-  console.log('This number is almost especial');
+if(n<=100){
+  console.log('This number is almost special');
+} 
+if (n % 10 == 0){
+  console.log('This number is almost special');
 }
-if (n % 10) {
-  console.log('This number is almost especial');
-}
-if (n != 1000) {
-  console.log('This number is almost especial');
+else {
+  console.log('Just a regular number');
 }
 ```
 7. [pending] Follow Git Course.
