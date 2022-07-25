@@ -179,7 +179,6 @@ for (let i = 0; i <= 100; i++) {
 
 console.log(i);
 }
-// expected output: "012345678"
 ```
 3. [x] Bad Code exercise.
 **Exercise Description**
