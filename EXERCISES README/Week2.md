@@ -22,6 +22,7 @@ Notes:
 
 Notes:
 - Function declaration is where you declare parameters, names, and operations.
+- It's the insertion of an instruction.
 ## Tuesday 26 July, 2022
 1. [ ] Multiply exercise
 2. [ ] ASCII Total exercise
