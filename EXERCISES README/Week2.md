@@ -2,10 +2,19 @@
 
 ## Monday 25 July, 2022
 1. [x] Create an account in Codewars, follow the instructions.
-2. [ ] Read about if...else
-3. [ ] Read about: for
-4. [ ] Read about: while
-5. [ ] Read about: functions
+2. [x] Read about if...else
+
+Notes:
+- Most comfortable to work with }{.
+- If...else use a space between them.
+- When using true - false do not confuse with Boolean.
+
+4. [ ] Read about: for
+
+Notes:
+- 
+6. [ ] Read about: while
+7. [ ] Read about: functions
 
 ## Tuesday 26 July, 2022
 1. [ ] Multiply exercise
