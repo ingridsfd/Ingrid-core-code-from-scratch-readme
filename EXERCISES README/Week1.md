@@ -227,17 +227,14 @@ FIXED CODE WOULD BE:
 ```Javascript
 var n=100;
 if(n==100) {
-  console.log('This is a special numer!');
-}
-if(n<=100){
+  console.log('This is a special number!');
+} else
+if(n<=100 && n%10 == 0 && n!=1000){
   console.log('This number is almost special');
-} 
-if (n % 10 == 0){
-  console.log('This number is almost special');
-}
-else {
+  }
+  else{
   console.log('Just a regular number');
-}
+  }
 ```
 7. [pending] Follow Git Course.
 Tracking progress:
