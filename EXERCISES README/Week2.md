@@ -24,11 +24,9 @@ Notes:
 - Function declaration is where you declare parameters, names, and operations.
 - It's the insertion of an instruction.
 ## Tuesday 26 July, 2022
-1. [ ] Multiply exercise
-2. [ ] ASCII Total exercise
-3. [ ] Char From ASCII Value exercise
-4. [ ] Binary Addition exercise
-5. [ ] Student's Final Grade exercise
+1. [ ] Start this HTML course.
+2. [ ] Multiply exercise.
+3. [ ] ASCII Total exercise.
 
 ## Wednesday 27 July, 2022
 1. [ ] Holiday VIII - Duty Free exercise
