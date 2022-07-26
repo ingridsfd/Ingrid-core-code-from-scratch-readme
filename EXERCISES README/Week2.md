@@ -1,7 +1,7 @@
 # Week Challenges
 
 ## Monday 25 July, 2022
-[] Create an account in Codewars, follow the instructions.
+[x] Create an account in Codewars, follow the instructions.
 
 [] Read about if...else
 
