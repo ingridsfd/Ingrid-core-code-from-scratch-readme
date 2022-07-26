@@ -2,23 +2,23 @@
 
 ## Monday 25 July, 2022
 1. [x] Create an account in Codewars, follow the instructions.
-2. [x] Read about if...else
+2. [x] Read about if...else.
 
 Notes:
 - Most comfortable to work with }{.
 - If...else use a space between them.
 - When using true - false do not confuse with Boolean.
 
-4. [ ] Read about: for
+4. [x] Read about: for
 
 Notes:
 - To create loops in a statement.
-- 
-6. [ ] Read about: while
+- Usually in a block statement.
+6. [x] Read about: while.
 
 Notes:
-- Text
-8. [x] Read about: functions
+- Creates a loop as long as it evaluates it as 'true'.
+8. [x] Read about: functions.
 
 Notes:
 - Function declaration is where you declare parameters, names, and operations.
