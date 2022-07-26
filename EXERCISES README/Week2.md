@@ -35,7 +35,8 @@ Notes:
 4. [ ] Student's Final Grade exercise.
 
 ## Thursday 28 July, 2022
-1. [ ] Remove All Exclamation Marks From The End Of Sentence exercise
-2. [ ] Vowel Remover exercise
-3. [ ] Rock Paper Scissors! exercise
-4. [ ] Persistent Bugger exercise
+1. [ ] Follow up with the HTML course you started on Tuesday.
+2. [ ] Remove All Exclamation Marks From The End Of Sentence exercise
+3. [ ] Vowel Remover exercise
+4. [ ] Rock Paper Scissors! exercise
+5. [ ] Persistent Bugger exercise
