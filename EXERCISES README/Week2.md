@@ -12,10 +12,16 @@ Notes:
 4. [ ] Read about: for
 
 Notes:
+- To create loops in a statement.
 - 
 6. [ ] Read about: while
-7. [ ] Read about: functions
 
+Notes:
+- Text
+8. [x] Read about: functions
+
+Notes:
+- Function declaration is where you declare parameters, names, and operations.
 ## Tuesday 26 July, 2022
 1. [ ] Multiply exercise
 2. [ ] ASCII Total exercise
