@@ -29,10 +29,10 @@ Notes:
 3. [ ] ASCII Total exercise.
 
 ## Wednesday 27 July, 2022
-1. [ ] Holiday VIII - Duty Free exercise
-2. [ ] Twice As Old exercise
-3. [ ] Valid Spacing exercise
-4. [ ] Fake Binary exercise
+1. [ ] Follow up with the HTML course you started on Tuesday.
+2. [ ] Char From ASCII Value exercise.
+3. [ ] Binary Adition Exercise.
+4. [ ] Student's Final Grade exercise.
 
 ## Thursday 28 July, 2022
 1. [ ] Remove All Exclamation Marks From The End Of Sentence exercise
