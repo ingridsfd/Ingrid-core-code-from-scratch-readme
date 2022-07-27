@@ -24,14 +24,14 @@ Notes:
 - Function declaration is where you declare parameters, names, and operations.
 - It's the insertion of an instruction.
 ## Tuesday 26 July, 2022
-1. [ ] Start this HTML course.
-3. [ ] Multiply exercise.
-´´´
+1. [x] Start this HTML course.
+3. [x] Multiply exercise.
+```JavaScript
 function multiply(a, b){
   let c = a * b
   return c; 
 }
-´´´´
+```
 5. [ ] ASCII Total exercise.
 
 ## Wednesday 27 July, 2022
