@@ -25,8 +25,14 @@ Notes:
 - It's the insertion of an instruction.
 ## Tuesday 26 July, 2022
 1. [ ] Start this HTML course.
-2. [ ] Multiply exercise.
-3. [ ] ASCII Total exercise.
+3. [ ] Multiply exercise.
+´´´
+function multiply(a, b){
+  let c = a * b
+  return c; 
+}
+´´´´
+5. [ ] ASCII Total exercise.
 
 ## Wednesday 27 July, 2022
 1. [ ] Follow up with the HTML course you started on Tuesday.
