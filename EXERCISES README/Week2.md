@@ -33,9 +33,18 @@ function multiply(a, b){
 }
 ```
 5. [ ] ASCII Total exercise.
+```JavaScript
+function uniTotal(str) {
+  let total = 0;
+  for (let i = 0, length = str.length; i < length; i++) {
+    total += str[i].charCodeAt();
+  }
+  return total;
+}
+```
 
 ## Wednesday 27 July, 2022
-1. [ ] Follow up with the HTML course you started on Tuesday.
+1. [x] Follow up with the HTML course you started on Tuesday.
 2. [ ] Char From ASCII Value exercise.
 3. [ ] Binary Adition Exercise.
 4. [ ] Student's Final Grade exercise.
