@@ -41,13 +41,18 @@ function uniTotal(str) {
   }
   return total;
 }
-```
+
 
 ## Wednesday 27 July, 2022
 1. [x] Follow up with the HTML course you started on Tuesday.
 2. [ ] Char From ASCII Value exercise.
-3. [ ] Binary Adition Exercise.
-4. [ ] Student's Final Grade exercise.
+```JavaScript
+function getChar(c){
+  return String.fromCharCode(c);
+}
+```
+4. [ ] Binary Adition Exercise.
+5. [ ] Student's Final Grade exercise.
 
 ## Thursday 28 July, 2022
 1. [x] Follow up with the HTML course you started on Tuesday.
