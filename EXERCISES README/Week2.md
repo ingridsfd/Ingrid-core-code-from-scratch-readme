@@ -50,7 +50,7 @@ function uniTotal(str) {
 4. [ ] Student's Final Grade exercise.
 
 ## Thursday 28 July, 2022
-1. [ ] Follow up with the HTML course you started on Tuesday.
+1. [x] Follow up with the HTML course you started on Tuesday.
 2. [ ] Remove All Exclamation Marks From The End Of Sentence exercise
 3. [ ] Vowel Remover exercise
 4. [ ] Rock Paper Scissors! exercise
