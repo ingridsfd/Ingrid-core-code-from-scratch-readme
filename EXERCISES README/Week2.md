@@ -59,7 +59,21 @@ function addBinary(a,b) {
 }
 ```
 6. [ ] Student's Final Grade exercise.
-
+```JavaScript
+function finalGrade (exam, projects) {
+  let result = 0;
+  if (exam > 90 || projects > 10) {
+    result = 100;
+  } else 
+    if (exam > 75 && projects >= 5) {
+      result = 90;
+    } else
+      if (exam > 50 && projects >= 2) {
+        result = 75;
+      }
+        return result // final grade
+        }
+```
 ## Thursday 28 July, 2022
 1. [x] Follow up with the HTML course you started on Tuesday.
 2. [ ] Remove All Exclamation Marks From The End Of Sentence exercise
