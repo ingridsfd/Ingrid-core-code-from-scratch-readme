@@ -32,7 +32,7 @@ function multiply(a, b){
   return c; 
 }
 ```
-5. [ ] ASCII Total exercise.
+5. [x] ASCII Total exercise.
 ```JavaScript
 function uniTotal(str) {
   let total = 0;
