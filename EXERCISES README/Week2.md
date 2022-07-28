@@ -52,8 +52,13 @@ function getChar(c){
   return String.fromCharCode(c);
 }
 ```
-4. [ ] Binary Adition Exercise.
-5. [ ] Student's Final Grade exercise.
+4. [x] Binary Adition Exercise.
+```JavaScript
+function addBinary(a,b) {
+  return (a + b).toString(2); 
+}
+```
+6. [ ] Student's Final Grade exercise.
 
 ## Thursday 28 July, 2022
 1. [x] Follow up with the HTML course you started on Tuesday.
