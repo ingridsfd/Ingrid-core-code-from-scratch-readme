@@ -41,11 +41,12 @@ function uniTotal(str) {
   }
   return total;
 }
-
+```
 
 ## Wednesday 27 July, 2022
 1. [x] Follow up with the HTML course you started on Tuesday.
-2. [ ] Char From ASCII Value exercise.
+2. [x] Char From ASCII Value exercise.
+
 ```JavaScript
 function getChar(c){
   return String.fromCharCode(c);
