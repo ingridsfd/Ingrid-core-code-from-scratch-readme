@@ -58,7 +58,7 @@ function addBinary(a,b) {
   return (a + b).toString(2); 
 }
 ```
-6. [ ] Student's Final Grade exercise.
+6. [x] Student's Final Grade exercise.
 ```JavaScript
 function finalGrade (exam, projects) {
   let result = 0;
