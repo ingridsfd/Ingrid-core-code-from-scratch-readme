@@ -90,6 +90,6 @@ function remove (string) {
   return result;
 }
 ```
-4. [ ] Vowel Remover exercise
+4. [x] Vowel Remover exercise
 5. [ ] Rock Paper Scissors! exercise
 6. [ ] Persistent Bugger exercise
