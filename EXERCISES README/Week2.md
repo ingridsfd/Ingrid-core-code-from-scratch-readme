@@ -76,7 +76,7 @@ function finalGrade (exam, projects) {
 ```
 ## Thursday 28 July, 2022
 1. [x] Follow up with the HTML course you started on Tuesday.
-2. [ ] Remove All Exclamation Marks From The End Of Sentence exercise
+2. [x] Remove All Exclamation Marks From The End Of Sentence exercise
 ```JavaScript
 function remove (string) {  
   let result = '';
@@ -90,6 +90,6 @@ function remove (string) {
   return result;
 }
 ```
-4. [x] Vowel Remover exercise
+4. [ ] Vowel Remover exercise
 5. [ ] Rock Paper Scissors! exercise
 6. [ ] Persistent Bugger exercise
