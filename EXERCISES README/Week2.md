@@ -90,6 +90,18 @@ function remove (string) {
   return result;
 }
 ```
-4. [ ] Vowel Remover exercise
-5. [ ] Rock Paper Scissors! exercise
-6. [ ] Persistent Bugger exercise
+4. [x] Vowel Remover exercise
+```JavaScript
+function shortcut(string) {
+  let result = '';
+  for (let i = 0; i < string.length; i++) {
+    if (string[i] == 'a' || string[i] == 'e' || string[i] == 'i' || string[i] == 'o' || string[i] == 'u') {
+      continue;
+    }
+    result = result + string[i];
+  }
+  return result;
+}
+```
+6. [ ] Rock Paper Scissors! exercise
+7. [ ] Persistent Bugger exercise
