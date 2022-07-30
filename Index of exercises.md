@@ -3,7 +3,7 @@
 ## Index of my tracking taskss
 
 - Week 1 : [Introduction to programming & Javascript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week1.md)
-- Week 2 : [Javascript]
+- Week 2 : [Javascript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week2.md)
 - Week 3 : [Javascript]
 - Week 4 : Javascript & Pause Day
 - Week 5 : End Of Month & Typescript
