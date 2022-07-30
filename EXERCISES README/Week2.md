@@ -103,7 +103,7 @@ function shortcut(string) {
   return result;
 }
 ```
-6. [ ] Rock Paper Scissors! exercise
+6. [x] Rock Paper Scissors! exercise
 ```JavaScript
 const rps = (p1, p2) => {
   if (p1 === p2) return 'Draw!';
