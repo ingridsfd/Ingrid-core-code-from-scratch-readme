@@ -116,17 +116,26 @@ const rps = (p1, p2) => {
 8. [x] Persistent Bugger exercise
 ```JavaScript
 function persistence(num) {
-  let times = 0;
-  num = num.toString();
-  while (num.length > 1) {
-    times++;
-    num = num
-      .split('')
-      .map((a) => Number(a))
-      .reduce((a, b) => a * b)
-      .toString();
+  let numString = num.toString();
+  let cantDigits = numString.length;
+
+  if (cantDigits == 1) {
+    return 0;
   }
-  return times;
+  
+  let i = 0;
+  let mult = 0;
+  for(; cantDigits >= 2; i++) {
+
+    mult = 1;
+    for(let j = 0; j < numString.length; j++) {
+      mult = Number(mult) * Number(numString[j]);
+    }
+    numString = mult.toString();
+    cantDigits = numString.length;
+  }
+  
+  return i;
 }
 ```
 
