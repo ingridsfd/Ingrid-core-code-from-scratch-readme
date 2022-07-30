@@ -113,4 +113,20 @@ const rps = (p1, p2) => {
   return 'Player 2 won!';
 };
 ```
-8. [ ] Persistent Bugger exercise
+8. [x] Persistent Bugger exercise
+```JavaScript
+function persistence(num) {
+  let times = 0;
+  num = num.toString();
+  while (num.length > 1) {
+    times++;
+    num = num
+      .split('')
+      .map((a) => Number(a))
+      .reduce((a, b) => a * b)
+      .toString();
+  }
+  return times;
+}
+```
+
