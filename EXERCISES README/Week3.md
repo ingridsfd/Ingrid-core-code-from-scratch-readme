@@ -15,8 +15,18 @@ function likes(names) {
   return (names[0] + ', ' + names[1] + ' and ' + (names.length - 2) + ' others like this');
 }
 ```
-3. [ ] Bit Counting exercise
-4. [ ] Your Order, Please exercise
+3. [x] Bit Counting exercise
+```JavaScript
+var countBits = function(n) {
+  var binaryNum = n.toString(2);
+  let bit = 0;
+  for (i = 0; i < binaryNum.length; i++) {
+    if (binaryNum[i] === '1') bit++;
+  }
+  return bit;
+};
+```
+6. [ ] Your Order, Please exercise
 
 ## Tuesday august 2, 2022
 4. [ ] Simple Pig Latin exercise
