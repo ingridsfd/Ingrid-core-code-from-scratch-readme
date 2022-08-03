@@ -1,4 +1,4 @@
-# This is the code for a 8 Ball simulation:
+# This is the code for a 8 Ball simulation
 ## August 3rd, 2022
 Baby exercises that will help me understand better the ones we are doing during CoreCode: 
 
