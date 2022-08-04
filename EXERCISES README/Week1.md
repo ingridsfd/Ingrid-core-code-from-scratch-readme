@@ -229,7 +229,7 @@ var n=100;
 if(n==100) {
   console.log('This is a special number!');
 } else
-if(n<100 && n%10 == 0 && n!=1000){
+if(n<1000 && n%10 == 0 && n!=100){
   console.log('This number is almost special');
   }
   else{
