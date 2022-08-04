@@ -196,7 +196,7 @@ Fixed code would be:
 ```Javascript
 var cond = false;
 
-if (cond) {
+if (cond == true) {
   console.log('The cond variable is true');
 } else {
   console.log('The cond variable is false');
