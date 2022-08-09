@@ -11,8 +11,8 @@ Time to catch up ⏱️ or do extra work ⭐
 
 ## Tuesday 09 August, 2022
 Time to catch up ⏱️ or do extra work ⭐
-1. [ ] Watch this Regular Expressions (RegEx) video (It is not mandatory for the Readme).
-2. [ ] Read Regular Expressions - MDN documentation (It is not mandatory for the Readme).
+1. [x] Watch this Regular Expressions (RegEx) video (It is not mandatory for the Readme).
+2. [x] Read Regular Expressions - MDN documentation (It is not mandatory for the Readme).
 3. [ ] Learn about replace in this video (It is not mandatory for the Readme).
 4. [ ] Read replace - MDN documentation (It is not mandatory for the Readme).
 5. [ ] Check Regexr, a tool to test your regular expressions (It is not mandatory for the Readme).
