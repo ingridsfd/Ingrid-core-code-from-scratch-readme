@@ -18,6 +18,8 @@ Time to catch up ⏱️ or do extra work ⭐
 5. [x] Check Regexr, a tool to test your regular expressions (It is not mandatory for the Readme).
 6. [x] A complete Regular Expressions video (It is not mandatory for the Readme).
 
+Notes: To learn .replace() we must understand firs the Regex expressions.
+
 ## Wednesday 10 August, 2022
 Time to catch up ⏱️ or do extra work ⭐
 
