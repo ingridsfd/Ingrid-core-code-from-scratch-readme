@@ -16,7 +16,7 @@ Time to catch up ⏱️ or do extra work ⭐
 3. [x] Learn about replace in this video (It is not mandatory for the Readme).
 4. [x] Read replace - MDN documentation (It is not mandatory for the Readme).
 5. [x] Check Regexr, a tool to test your regular expressions (It is not mandatory for the Readme).
-6. [ ] A complete Regular Expressions video (It is not mandatory for the Readme).
+6. [x] A complete Regular Expressions video (It is not mandatory for the Readme).
 
 ## Wednesday 10 August, 2022
 Time to catch up ⏱️ or do extra work ⭐
