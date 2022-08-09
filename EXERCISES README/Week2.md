@@ -138,4 +138,8 @@ function persistence(num) {
   return i;
 }
 ```
-
+## Extra exercises (not mandatory for the README)
+1. [ ] Holiday VIII - Duty Free exercise
+2. [ ] Twice As Old exercise
+3. [ ] Valid Spacing exercise
+4. [ ] Fake Binary exercise
