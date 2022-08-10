@@ -15,3 +15,11 @@ console.log(groceryList);
 const pastaIndex = groceryList.indexOf('pasta');
 console.log(pastaIndex);
 ```
+## This prints each value in the array:
+```JavaScript
+const vacationSpots = ['Bali', 'Paris', 'Tulum'];
+// Write your code below
+for (let i = 0; i < vacationSpots.length; i++) {
+  console.log('I would love to visit' + vacationSpots[i]);
+}
+```
