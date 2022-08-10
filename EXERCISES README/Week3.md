@@ -40,8 +40,24 @@ var countBits = function(n) {
 
 ## Tuesday august 2, 2022
 4. [ ] Simple Pig Latin exercise
-5. [ ] Counting Duplicates exercise
-6. [ ] Decode The Morse Code exercise
+5. [x] Counting Duplicates exercise
+```JavaScript
+function duplicateCount(text){
+  // Ii (case sensitive, son diferentes)
+  // Ii (case insensitive, son igual)
+  let duplicates = 0;
+  text = text.toLowerCase(); // todo minuscula
+  for(let i = 0; i < text.length; i++) {
+    if(text.indexOf(text[i]) !== text.lastIndexOf(text[i])) {
+      duplicates++;
+      text = text.replace(new RegExp(`${text[i]}`, 'g'), '');
+      i = i-1;
+    }
+  }
+  return duplicates;
+}
+```
+7. [ ] Decode The Morse Code exercise
 
 ## Wednesday august 3, 2022
 7. [ ] Valid Parentheses exercise
