@@ -39,8 +39,16 @@ var countBits = function(n) {
 6. [ ] Your Order, Please exercise
 
 ## Tuesday august 2, 2022
-4. [ ] Simple Pig Latin exercise
-5. [x] Counting Duplicates exercise
+4. [x] Simple Pig Latin exercise.
+
+Forgot to put REGEX of space in the last string which is --| $-- to considerate the last space of the string. [fixed]
+```JavaScript
+function pigIt(str){
+  return str.replace (/(\w)(\w*)(\s|$)/g, '$2$1ay$3');
+}
+```
+
+6. [x] Counting Duplicates exercise
 ```JavaScript
 function duplicateCount(text){
   // Ii (case sensitive, son diferentes)
