@@ -74,7 +74,7 @@ function duplicateCount(text){
 
 ## Thursday august 4, 2022
 8. [ ] Fold An Array exercise
-9. [ ] Encrypt This! exercise
+9. [x] Encrypt This! exercise
 ```JavaScript
 var encryptThis = function (text) {
     //code here
