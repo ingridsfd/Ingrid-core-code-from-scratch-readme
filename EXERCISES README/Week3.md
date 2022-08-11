@@ -36,7 +36,17 @@ var countBits = function(n) {
   return bit;
 };
 ```
-6. [ ] Your Order, Please exercise
+6. [pending] Your Order, Please exercise
+```JavaScript
+function order(words){
+    // =)
+    return words && words.split(' ')
+    .map(word => word.match(/\d/) + word)
+    .sort()
+    .map(word => word.slice(1))
+    .join(' ');
+}
+```
 
 ## Tuesday august 2, 2022
 4. [x] Simple Pig Latin exercise.
@@ -74,7 +84,7 @@ function duplicateCount(text){
 
 ## Thursday august 4, 2022
 8. [ ] Fold An Array exercise
-9. [x] Encrypt This! exercise
+9. [pending] Encrypt This! exercise
 ```JavaScript
 var encryptThis = function (text) {
     //code here
