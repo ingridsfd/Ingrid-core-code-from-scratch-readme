@@ -75,4 +75,30 @@ function duplicateCount(text){
 ## Thursday august 4, 2022
 8. [ ] Fold An Array exercise
 9. [ ] Encrypt This! exercise
-10. [ ] ✨Complete your 1st Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+```JavaScript
+var encryptThis = function (text) {
+    //code here
+}
+// [hello, world]
+let str = 'world';
+let charBackup = str[1];
+// 1
+/*
+  W0[0].charCodeAt(0) 
+*/
+str = str.replace(str[0], str.charCodeAt(0));
+// 2
+/*
+ W0[1] = W0[W0.length-1]
+ W0[W0.length-1] = W0[1]
+*/
+//str = str.replace(charBackup, str[str.length-1]);
+//str = str.replace(/\w$/, charBackup);
+
+str = str.slice(0, str.length-1) + charBackup;
+//str = `${str.slice(0, str.length-1)}${charBackup}`;
+//str = str.slice(0, str.length-1).concat(charBackup);
+
+console.log(str); 
+```
+11. [x] ✨Complete your 1st Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
