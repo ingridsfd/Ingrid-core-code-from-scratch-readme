@@ -2,6 +2,8 @@
 
 ## Monday august 1, 2022
 1. [x] Who Likes It? exercise
+
+The difference between a 'switch' and simple conditionals is that the first term equals to problems that do not require mutable results(prints), whereas conditionals stablish mutable or updating results.
 ```JavaScript
 let names= ["John", "Mark"]
 function likes(names) {
