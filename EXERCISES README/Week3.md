@@ -109,4 +109,25 @@ var encryptThis = function(text) {
   return result.trim();
 }
 ```
+
+[pending] My code solution:
+```JavaScript
+function encrypt(word) {
+  if(word.length === 1) return `${word.charCodeAt(0)}`;
+  const charBackup = word[1];
+  word = word.replace(word[0], word.charCodeAt(0));
+  word = word.replace(charBackup, word[word.length-1]);
+  word = word.replace(/\w$/, charBackup);
+  return word;
+}
+
+var encryptThis = function(text) {
+  let textArray = text.split(' ');
+  let result = '';
+  let arr = textArray.reduce((previousValue, currentValue) => {
+    return previousValue + currentValue;
+});
+  return result.trim();
+}
+```
 11. [x] ✨Complete your 1st Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
