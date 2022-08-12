@@ -81,7 +81,7 @@ function duplicateCount(text){
 
 ## Wednesday august 3, 2022
 7. [ ] Valid Parentheses exercise
-8. [ ] Convert String To Camel Case exercise
+8. [pending] Convert String To Camel Case exercise
 9. [ ] Unique In Order exercise
 
 ## Thursday august 4, 2022
