@@ -84,31 +84,27 @@ function duplicateCount(text){
 
 ## Thursday august 4, 2022
 8. [ ] Fold An Array exercise
-9. [pending] Encrypt This! exercise
+9. [x] Encrypt This! exercise
+
+With .forEach() function method:
 ```JavaScript
-var encryptThis = function (text) {
-    //code here
+function encrypt(word) {
+  if(word.length === 1) return `${word.charCodeAt(0)}`;
+  const charBackup = word[1];
+  word = word.replace(word[0], word.charCodeAt(0));
+  word = word.replace(charBackup, word[word.length-1]);
+  word = word.replace(/\w$/, charBackup);
+  return word;
 }
-// [hello, world]
-let str = 'world';
-let charBackup = str[1];
-// 1
-/*
-  W0[0].charCodeAt(0) 
-*/
-str = str.replace(str[0], str.charCodeAt(0));
-// 2
-/*
- W0[1] = W0[W0.length-1]
- W0[W0.length-1] = W0[1]
-*/
-//str = str.replace(charBackup, str[str.length-1]);
-//str = str.replace(/\w$/, charBackup);
 
-str = str.slice(0, str.length-1) + charBackup;
-//str = `${str.slice(0, str.length-1)}${charBackup}`;
-//str = str.slice(0, str.length-1).concat(charBackup);
-
-console.log(str); 
+var encryptThis = function(text) {
+  const textArray = text.split(' ');
+  let result = '';
+  textArray.forEach((w) => {
+    // result = `${result === '' ? '' : `${result} `}${encrypt(w)}`;
+    result = `${result} ${encrypt(w)}`;
+  })
+  return result.trim();
+}
 ```
 11. [x] ✨Complete your 1st Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
