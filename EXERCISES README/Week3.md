@@ -110,24 +110,25 @@ var encryptThis = function(text) {
 }
 ```
 
-[pending] My code solution:
+10. [x] My code solution with .reduce() method:
 ```JavaScript
 function encrypt(word) {
-  if(word.length === 1) return `${word.charCodeAt(0)}`;
+  if (word.length === 1) return `${word.charCodeAt(0)}`;
   const charBackup = word[1];
+  console.log(charBackup);
   word = word.replace(word[0], word.charCodeAt(0));
-  word = word.replace(charBackup, word[word.length-1]);
+  word = word.replace(charBackup, word[word.length - 1]);
   word = word.replace(/\w$/, charBackup);
   return word;
+
 }
 
-var encryptThis = function(text) {
+var encryptThis = function (text) {
   let textArray = text.split(' ');
-  let result = '';
-  let arr = textArray.reduce((previousValue, currentValue) => {
-    return previousValue + currentValue;
-});
+  const result = textArray.reduce((prev, curr) => prev = prev + encrypt(curr) + ' ', '');
   return result.trim();
 }
 ```
+
+
 11. [x] ✨Complete your 1st Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
