@@ -14,7 +14,7 @@ Functional Programming:
 
 One kind of functions works with variables defined. The other one, has none of those variables defined.
 
-Object Oriented Programming.
+[Object Oriented Programming.](https://www.youtube.com/watch?v=pTB0EiLXUC8)
 * Class: abstract blue print with attributes and methods
 * Objects can pass different data while still having same or different attributes.
 * Methods can change (update) the state of an object.
