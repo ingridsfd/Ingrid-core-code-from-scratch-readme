@@ -80,7 +80,7 @@ function duplicateCount(text){
 7. [ ] Decode The Morse Code exercise
 
 ## Wednesday august 3, 2022
-7. [ ] Valid Parentheses exercise
+7. [x] Valid Parentheses exercise
 ```JavaScript
 function validParentheses(parens) {
   let valid = 0;
