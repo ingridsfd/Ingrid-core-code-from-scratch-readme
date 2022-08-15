@@ -77,7 +77,34 @@ function duplicateCount(text){
   return duplicates;
 }
 ```
-7. [ ] Decode The Morse Code exercise
+7. [x] Decode The Morse Code exercise
+```JavaScript
+decodeMorse = function(morseCode){
+  // morseCode = '.... . -.--   .--- ..- -.. .'
+  
+  // MORSE_CODE['.'] ==> E
+  // MORSE_CODE['.-'] ==> A
+  
+  // ['.... . -.--', '.--- ..- -.. .']  // separada en palabras
+  return morseCode
+    .split('')
+    .map((word) => MORSE_CODE[word] || ' ')
+    .join('')
+    .replace(/   /g, ' ')
+    .trim();
+
+
+  // let letras = ['....', '.', '-.--', '.---', '..-', '-..', '.'] // separada por letras
+  // Por cada letra, obtener su equivalente MORSE_CODE[letras[i]]  // i = 0 --> letras.length-1
+  
+  // let letras = ['H', 'E', 'Y', 'J', 'U', 'D', 'E']
+  
+  // return 'HEY JUDE'
+  
+  //console.log(MORSE_CODE);
+  
+}
+```
 
 ## Wednesday august 3, 2022
 7. [x] Valid Parentheses exercise
