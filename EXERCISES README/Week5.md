@@ -25,7 +25,7 @@ An object/entity is anything that you want to store and process data about.
 * Abstraction: Simplify reality. Focus on the processes relevant to the application built. Class is template to creating the object(type). Operations: behavior of the object.
 * Encapsulation: Hide/Manipulation of the data and complexity of the object.
 * Inheritance: Derivation of properties(sub and superclass), methods and class. Type of relationships.
-* Polymorphism: The class can implement its own method in its own way. Many forms of saving the data.
+* Polymorphism: The class can implement its own method in its own way. Many forms of saving the data. For example, refactor ugly switch/case statements into more legible functions(code).
 
 5. [x] [Read bout OOP](https://medium.com/from-the-scratch/oop-everything-you-need-to-know-about-object-oriented-programming-aee3c18e281b)
 
