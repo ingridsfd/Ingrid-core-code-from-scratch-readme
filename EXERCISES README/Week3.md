@@ -81,7 +81,19 @@ function duplicateCount(text){
 
 ## Wednesday august 3, 2022
 7. [ ] Valid Parentheses exercise
-8. [x] Convert String To Camel Case exercise
+```JavaScript
+function validParentheses(parens) {
+  let valid = 0;
+  for (let i = 0; i < parens.length; i++) {
+    if (parens[i] === ')') valid--;
+    if (parens[i] === '(') valid++;
+    if (valid < 0) return false;
+  }
+  return valid == 0;
+}
+```
+
+9. [x] Convert String To Camel Case exercise
 ```JavaScript
 function toCamelCase(str) {
   return str
@@ -91,7 +103,8 @@ function toCamelCase(str) {
     .join('');
 }
 ```
-10. [ ] Unique In Order exercise
+10. [ p] Unique In Order exercise
+
 
 ## Thursday august 4, 2022
 8. [x] Fold An Array exercise
