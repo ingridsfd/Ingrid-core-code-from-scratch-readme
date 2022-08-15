@@ -27,7 +27,7 @@ An object/entity is anything that you want to store and process data about.
 * Inheritance: Derivation of properties(sub and superclass), methods and class. Type of relationships.
 * Polymorphism: The class can implement its own method in its own way. Many forms of saving the data.
 
-5. [ ] Read bout OOP
+5. [x] [Read bout OOP](https://medium.com/from-the-scratch/oop-everything-you-need-to-know-about-object-oriented-programming-aee3c18e281b)
 
 ## Thursday 18, august 2022 
 4. [ ] Get started with TypeScript guided exercise, using Typescript
