@@ -94,8 +94,16 @@ function toCamelCase(str) {
 10. [ ] Unique In Order exercise
 
 ## Thursday august 4, 2022
-8. [ ] Fold An Array exercise
-9. [x] Encrypt This! exercise
+8. [x] Fold An Array exercise
+```JavaScript
+function foldArray(a, n) {
+  const r = [],
+    c = a.slice();
+  while (c.length) r.push(c.pop() + (c.shift() || 0));
+  return n - 1 ? foldArray(r, n - 1) : r;
+}
+```
+10. [x] Encrypt This! exercise
 
 With .forEach() function method:
 ```JavaScript
