@@ -38,7 +38,7 @@ var countBits = function(n) {
   return bit;
 };
 ```
-6. [pending] Your Order, Please exercise
+6. [x] Your Order, Please exercise
 ```JavaScript
 function order(words){
     // =)
@@ -81,8 +81,17 @@ function duplicateCount(text){
 
 ## Wednesday august 3, 2022
 7. [ ] Valid Parentheses exercise
-8. [pending] Convert String To Camel Case exercise
-9. [ ] Unique In Order exercise
+8. [x] Convert String To Camel Case exercise
+```JavaScript
+function toCamelCase(str) {
+  return str
+    .replace(/-/g, '_')
+    .split('_')
+    .map((word, i) => (i > 0 ? word.toUpperCase()[0] + word.substr(1) : word))
+    .join('');
+}
+```
+10. [ ] Unique In Order exercise
 
 ## Thursday august 4, 2022
 8. [ ] Fold An Array exercise
