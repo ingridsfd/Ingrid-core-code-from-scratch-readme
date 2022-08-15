@@ -5,9 +5,22 @@ Time to catch up ⏱️ or do extra work ⭐
 Time to catch up ⏱️ or do extra work ⭐
 
 ## Wednesday 17, august 2022
-1. [ ] Learn about FP vs OOP
-2. [ ] Learn about Fundamental Concepts of Object Oriented Programming
-3. [ ] Read bout OOP
+1. [x] Learn about FP vs OOP
+Notes: 
+Functional Programming:
+* Functions only: A way we can solve a problem. We have pure functions.
+* No Side Effects: Events that happen within limited scope. Bugs minimized. 
+* Fixed control Flow: Mapping input and output.
+
+One kind of functions works with variables defined. The other one, has none of those variables defined.
+
+Object Oriented Programming.
+* Class: abstract blue print with attributes and methods
+* Objects can pass different data while still having same or different attributes.
+* Methods can change (update) the state of an object.
+
+3. [ ] Learn about Fundamental Concepts of Object Oriented Programming
+4. [ ] Read bout OOP
 
 ## Thursday 18, august 2022 
 4. [ ] Get started with TypeScript guided exercise, using Typescript
