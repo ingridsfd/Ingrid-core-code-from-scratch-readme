@@ -103,8 +103,12 @@ function toCamelCase(str) {
     .join('');
 }
 ```
-10. [ p] Unique In Order exercise
-
+10. [x] Unique In Order exercise
+```JavaScript
+var uniqueInOrder = function (iterable) {
+  return [...iterable].filter((chr, i) => chr != iterable[i + 1]);
+};
+```
 
 ## Thursday august 4, 2022
 8. [x] Fold An Array exercise
