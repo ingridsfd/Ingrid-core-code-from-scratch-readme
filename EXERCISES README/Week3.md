@@ -78,6 +78,8 @@ function duplicateCount(text){
 }
 ```
 7. [x] Decode The Morse Code exercise
+
+Explanation of algorithm and pseudocodigo in class
 ```JavaScript
 decodeMorse = function(morseCode){
   // morseCode = '.... . -.--   .--- ..- -.. .'
@@ -103,6 +105,18 @@ decodeMorse = function(morseCode){
   
   //console.log(MORSE_CODE);
   
+}
+```
+Actual solution of the kata:
+```JavaScript
+decodeMorse = function(morseCode){
+  // 1.Lee cada código morse que hay en el array
+  return morseCode
+    .split('') // 1.1 Esto para convertirlo en array porque estaba en string
+    .map((word) => MORSE_CODE[word] || ' ') // 2.en cada posición de array aplica la conversión a MORSE_CODE[word], llama a la función
+    .join('') // 3.junta los arrays que haya calculado en el paso .map()
+    .replace(/   /g, ' ') // 4.reemplaza los espacios entre cada palabra para que no hayan espacios entre las comas del array
+    .trim(); // 5.quita los espacios innecesarios
 }
 ```
 
