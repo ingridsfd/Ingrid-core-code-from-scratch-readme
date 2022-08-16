@@ -110,14 +110,14 @@ decodeMorse = function(morseCode){
 Actual solution of the kata:
 ```JavaScript
 decodeMorse = function(morseCode){
-  // 1.Lee cada código morse que hay en el array
-  return morseCode
-    .split('') // 1.1 Esto para convertirlo en array porque estaba en string
-    .map((word) => MORSE_CODE[word] || ' ') // 2.en cada posición de array aplica la conversión a MORSE_CODE[word], llama a la función
-    .join('') // 3.junta los arrays que haya calculado en el paso .map()
-    .replace(/   /g, ' ') // 4.reemplaza los espacios entre cada palabra para que no hayan espacios entre las comas del array
-    .trim(); // 5.quita los espacios innecesarios
+  return morseCode.split(' ').map((word) => MORSE_CODE[word] || ' ').join('').replace(/  /g, ' ').trim();
 }
+// 1.Lee cada código morse que hay en el array
+// 1.1 Esto para convertirlo en array porque estaba en string
+// 2. En cada posición de array aplica la conversión a MORSE_CODE[word], llama a la función
+// 3. Junta los arrays que haya calculado en el paso .map()
+// 4. Reemplaza los espacios entre cada palabra para que no hayan espacios entre las comas del array
+//5. Quita los espacios innecesarios
 ```
 
 ## Wednesday august 3, 2022
