@@ -5,8 +5,8 @@
 - Week 1 : [Introduction to programming & Javascript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week1.md)
 - Week 2 : [Javascript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week2.md)
 - Week 3 : [Javascript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week3.md)
-- Week 4 : Javascript & Pause Day
-- Week 5 : End Of Month & Typescript
+- Week 4 : [Javascript & Pause Day](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week4.md)
+- Week 5 : [End Of Month & Typescript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week5.md)
 - Week 6 : [Typescript]
 - Week 7 : [Typescript]
 - Week 8 : [Typescript]
