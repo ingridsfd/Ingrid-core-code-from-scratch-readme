@@ -1,6 +1,6 @@
 # Welcome to my README:
 
-## Index of my tracking taskss
+## Index of my tracking tasks
 
 - Week 1 : [Introduction to programming & Javascript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week1.md)
 - Week 2 : [Javascript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week2.md)
