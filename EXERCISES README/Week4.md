@@ -24,7 +24,7 @@ Notes: To learn .replace() we must understand firs the Regex expressions.
 Time to catch up ⏱️ or do extra work ⭐
 
 ## Thursday 11 August, 2022
-1. [ ]✨Complete your 2nd Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+1. [x]✨Complete your 2nd Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 ## Friday 12 August, 2022
 1. [ ] Extra (It is not mandatory for the Readme) ⭐
