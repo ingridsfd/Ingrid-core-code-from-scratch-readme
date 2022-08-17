@@ -140,6 +140,15 @@ function persistence(num) {
 ```
 ## Extra exercises (not mandatory for the README)
 1. [ ] Holiday VIII - Duty Free exercise
-2. [ ] Twice As Old exercise
-3. [ ] Valid Spacing exercise
-4. [ ] Fake Binary exercise
+2. [x] Twice As Old exercise
+```JavaScript
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  //How many years ago //the father was 2twice as old as his son
+  let twiceAge = sonYearsOld * 2;
+  //how many years he will be twice as old
+  let difference = dadYearsOld - twiceAge;
+  return Math.abs(difference);
+}
+```
+4. [ ] Valid Spacing exercise
+5. [ ] Fake Binary exercise
