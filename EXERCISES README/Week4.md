@@ -28,6 +28,7 @@ Time to catch up ⏱️ or do extra work ⭐
 
 ## Friday 12 August, 2022
 Extra (It is not mandatory for the Readme) ⭐
+
 2. [ ] Simple Validation Of A Username exercise
 3. [x] Get Number From String exercise
 ```JavaScript
