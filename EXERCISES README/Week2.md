@@ -151,4 +151,25 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 }
 ```
 4. [ ] Valid Spacing exercise
-5. [ ] Fake Binary exercise
+```JavaScript
+function validSpacing(s) {
+    if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' ') { 
+     return false;
+  }
+  
+  for(let i = 0; i < s.length; i++) {
+    if(s.charAt(i) === ' '){ 
+      if(i != 0 && s.charAt(i-1) === ' ') {
+        return false;
+      }
+      if(i != (s.length - 1) && s.charAt(i+1) === ' ') {
+        return false;
+      }
+    }
+    // ....
+  }
+  
+  return true; // fuera la verificacion
+}
+```
+6. [ ] Fake Binary exercise
