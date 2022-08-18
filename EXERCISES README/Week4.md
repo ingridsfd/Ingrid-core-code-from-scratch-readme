@@ -27,7 +27,7 @@ Time to catch up ⏱️ or do extra work ⭐
 1. [x] ✨Complete your 2nd Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 ## Friday 12 August, 2022
-1. [ ] Extra (It is not mandatory for the Readme) ⭐
+Extra (It is not mandatory for the Readme) ⭐
 2. [ ] Simple Validation Of A Username exercise
 3. [x] Get Number From String exercise
 ```JavaScript
