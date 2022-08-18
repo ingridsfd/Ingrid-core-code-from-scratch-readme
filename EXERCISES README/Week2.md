@@ -150,7 +150,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
   return Math.abs(difference);
 }
 ```
-4. [ ] Valid Spacing exercise
+4. [x] Valid Spacing exercise
 ```JavaScript
 function validSpacing(s) {
     if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' ') { 
@@ -169,7 +169,7 @@ function validSpacing(s) {
     // ....
   }
   
-  return true; // fuera la verificacion
+  return true; //...
 }
 ```
 6. [ ] Fake Binary exercise
