@@ -172,4 +172,17 @@ function validSpacing(s) {
   return true; //...
 }
 ```
-6. [ ] Fake Binary exercise
+6. [x] Fake Binary exercise
+```JavaScript
+function fakeBin(x){
+  let result = '';
+  for (let i = 0; i < x.length; i++) {
+    if (parseInt(x[i]) < 5) {
+      result = result + '0';
+    } else {
+      result = result + '1';
+    }
+  }
+  return result
+}
+```
