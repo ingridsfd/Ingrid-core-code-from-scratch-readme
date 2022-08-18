@@ -153,7 +153,7 @@ function twiceAsOld(dadYearsOld, sonYearsOld) {
 4. [x] Valid Spacing exercise
 ```JavaScript
 function validSpacing(s) {
-    if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' ') { 
+    if(s.charAt(0) === ' ' || s.charAt(s.length - 1) === ' ') { // to access to an individual character in a string
      return false;
   }
   
