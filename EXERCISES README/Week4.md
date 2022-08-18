@@ -62,4 +62,8 @@ function stringClean(s){
   return s.replace(/\d/g, '');
 }
 ```
-7. [ ] Password Validation exercise
+7. [x] Password Validation exercise
+```JavaScript
+// assign your RegExp to REGEXP
+const REGEXP = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[a-zA-Z0-9]{6,}$/;
+```
