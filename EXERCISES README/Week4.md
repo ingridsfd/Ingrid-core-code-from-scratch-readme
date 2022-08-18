@@ -29,8 +29,22 @@ Time to catch up ⏱️ or do extra work ⭐
 ## Friday 12 August, 2022
 Extra (It is not mandatory for the Readme) ⭐
 
-2. [ ] Simple Validation Of A Username exercise
-3. [x] Get Number From String exercise
+2. [x] Simple Validation Of A Username exercise
+```JavaScript
+function validateUsr(username) {
+  //first atempt: res =  /^(?=.*\d)(?=.*[a-z]).{16,}$/g/.test(username) 
+  res =  /^([a-z]+|\d+|_){4,16}$/.test(username); 
+  return res
+}
+//^ means start from the beginning of the string
+//[] any character including a-z this case
+// | is a boolean
+// \d+ multiple digits
+// _ underscore
+// {4,16} from 4 to 16 digits long
+```
+
+4. [x] Get Number From String exercise
 ```JavaScript
 function getNumberFromString(s) {
   //first attempt:  s.replace(/(\w*)/g, "\s"); replace all words for spaces my first thought(?);
