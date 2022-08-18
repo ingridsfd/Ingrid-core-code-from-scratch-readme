@@ -30,8 +30,8 @@ An object/entity is anything that you want to store and process data about.
 5. [x] [Read bout OOP](https://medium.com/from-the-scratch/oop-everything-you-need-to-know-about-object-oriented-programming-aee3c18e281b)
 
 ## Thursday 18, august 2022 
-4. [ ] Get started with TypeScript guided exercise, using Typescript
-5. [ ] ✨Complete your 3rd Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+4. [x] Get started with TypeScript guided exercise, using Typescript
+5. [x] ✨Complete your 3rd Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 ## Friday Extra (It is not mandatory for the Readme) ⭐
 6. [ ] Find The Missing Letter exercise
