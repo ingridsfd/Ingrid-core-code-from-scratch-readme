@@ -29,6 +29,15 @@ Time to catch up ⏱️ or do extra work ⭐
 ## Friday 12 August, 2022
 1. [ ] Extra (It is not mandatory for the Readme) ⭐
 2. [ ] Simple Validation Of A Username exercise
-3. [ ] Get Number From String exercise
-4. [ ] String Cleaning exercise
-5. [ ] Password Validation exercise
+3. [x] Get Number From String exercise
+```JavaScript
+function getNumberFromString(s) {
+  //first attempt:  s.replace(/(\w*)/g, "\s"); replace all words for spaces my first thought(?);
+  //tell the function to replace the argument (express in the parenthesis using regex expression);
+  return +s.replace(/\D/g, ''); // \D means express the things that are NOT digits into '' (spaces of the string);
+  //g is global
+  //the + in s.replace indicates for position 
+}
+```
+5. [ ] String Cleaning exercise
+6. [ ] Password Validation exercise
