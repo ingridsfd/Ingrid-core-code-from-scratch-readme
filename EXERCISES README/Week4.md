@@ -40,5 +40,12 @@ function getNumberFromString(s) {
   //the + in s.replace indicates for position 
 }
 ```
-5. [ ] String Cleaning exercise
-6. [ ] Password Validation exercise
+5. [x] String Cleaning exercise
+```JavaScript
+function stringClean(s){
+  // Function will return the cleaned string
+  //remove all the numbers
+  return s.replace(/\d/g, '');
+}
+```
+7. [ ] Password Validation exercise
