@@ -51,21 +51,21 @@ enum Season {
     Fall
 };
 
-function whichMonths(season) {
+function whichMonths(season: Season) {
 
     let monthsInSeason: string;
 
     switch (season) {
-        case "Fall":
+        case Season.Fall:
             monthsInSeason = "September to November";
             break;
-        case "Winter":
+        case Season.Winter:
             monthsInSeason = "December to February";
             break;
-        case "Spring":
+        case Season.Spring:
             monthsInSeason = "March to May";
             break;
-        case "Summer":
+        case Season.Summer:
             monthsInSeason = "June to August";
     }
 
