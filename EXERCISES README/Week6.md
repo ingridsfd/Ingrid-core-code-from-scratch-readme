@@ -1,7 +1,7 @@
 # Week challenges (Monday) 💻
-1. [ ] Declare variable types in TypeScript guided exercise, using Typescript
-2. [ ] TypeScript Object Type exercise
-3. [ ] TypeScript Unions exercise
+1. [x] Declare variable types in TypeScript guided exercise, using Typescript
+3. [ ] TypeScript Object Type exercise
+4. [ ] TypeScript Unions exercise
 # Week challenges (Tuesday) 💻
 4. [ ] Square(n) Sum exercise, using Typescript
 5. [ ] Growth Of A Population exercise, using Typescript
