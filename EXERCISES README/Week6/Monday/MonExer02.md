@@ -165,6 +165,25 @@ export function isAdmin(person: Person): person is Admin {
 export function isUser(person: Person): person is User {
     return person.type === 'user';
 }
+
+export function logPerson(person: Person) {
+    let additionalInformation: string = '';
+    if (isAdmin(person)) {
+        additionalInformation = person.role;
+    }
+    if (isUser(person)) {
+        additionalInformation = person.occupation;
+    }
+    console.log(` - ${person.name}, ${person.age}, ${additionalInformation}`);
+}
+
+console.log('Admins:');
+persons.filter(isAdmin).forEach(logPerson);
+
+console.log();
+
+console.log('Users:');
+persons.filter(isUser).forEach(logPerson);
 ```
 ### Example of Utility Types and Predifined conditional types:
 ```JavaScript
