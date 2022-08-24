@@ -187,5 +187,41 @@ persons.filter(isUser).forEach(logPerson);
 ```
 ### Example of Utility Types and Predifined conditional types:
 ```JavaScript
-code here
+/* EXERCISE 5
+Intro:
+
+    Time to filter the data! In order to be flexible
+    we filter users using a number of criteria and
+    return only those matching all of the criteria.
+    We don't need Admins yet, we only filter Users.
+
+Exercise:
+
+    Without duplicating type structures, modify
+    filterUsers function definition so that we can
+    pass only those criteria which are needed,
+    and not the whole User information as it is
+    required now according to typing.
+
+Higher difficulty bonus exercise:
+
+    Exclude "type" from filter criterias.
+*/
+export function filterUsers(persons: Person[], criteria: Partial<Omit<User, 'type'>>): User[] {
+    return persons.filter(isUser).filter((user) => {
+        const criteriaKeys = Object.keys(criteria) as (keyof Omit<User, 'type'>)[];
+        return criteriaKeys.every((fieldName) => {
+            return user[fieldName] === criteria[fieldName];
+        });
+    });
+}
+
+console.log('Users of age 23:');
+
+filterUsers(
+    persons,
+    {
+        age: 23
+    }
+).forEach(logPerson);
 ```
