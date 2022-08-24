@@ -1,6 +1,5 @@
-# Monday august 22, 2022
-1. [x] Declare variable types in TypeScript guided exercise, using Typescript
-```Typescript
+# ✅Declare variable types in TypeScript guided exercise, using Typescript
+```TypeScript
 /*  EXERCISE 1
     TODO: Modify the code to add types to the variable declarations. 
     The resulting JavaScript should look the same as the original example when you're done. */
