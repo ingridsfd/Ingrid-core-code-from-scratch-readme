@@ -143,8 +143,21 @@ persons.forEach(logPerson);
 ```
 ### About the TypePredicates **is**:
 ```JavaScript
+/* EXERCISE 4
+Intro:
 
-// EXERCISE 4
+    As we introduced "type" to both User and Admin
+    it's now easier to distinguish between them.
+    Once object type checking logic was extracted
+    into separate functions isUser and isAdmin -
+    logPerson function got new type errors.
+
+Exercise:
+
+    Figure out how to help TypeScript understand types in
+    this situation and apply necessary fixes.
+*/
+
 export function isAdmin(person: Person): person is Admin {
     return person.type === 'admin';
 }
