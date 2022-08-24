@@ -354,7 +354,7 @@ function test5() {
 
 [test1, test2, test3, test4, test5].forEach((test) => test());
  ```
-### Maximize Data:
+### About Omit<Type,Keys> picks up types and removes unions of literals:
 ```JavaScript
  /* EXERCISE 8
 Intro:
@@ -372,4 +372,7 @@ Exercise:
     and also have type 'powerUser' without duplicating
     all the fields in the code.
 */
- 
+ type PowerUser = Omit<User, 'type'> & Omit<Admin, 'type'> & {
+    type: 'powerUser'
+};
+```
