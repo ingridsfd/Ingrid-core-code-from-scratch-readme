@@ -1,4 +1,4 @@
-# Sobre Objetos:
+# Sobre Clases / Objetos:
 ### How to create a class:
 ```JavaScript
 class Song {
