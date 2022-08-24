@@ -179,3 +179,17 @@ export function logPerson(person: Person) {
 
 persons.forEach(logPerson);
 ```
+### About the TypePredicates:
+```JavaScript
+export function isAdmin(person: Person): person is Admin {
+    return person.type === 'admin';
+}
+
+export function isUser(person: Person): person is User {
+    return person.type === 'user';
+}
+```
+### Example of Utility Types and Predifined conditional types:
+```JavaScript
+code here
+```
