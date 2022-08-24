@@ -1,6 +1,35 @@
 # Sobre Objetos:
+### How to create a class:
+```JavaScript
+class Song {
+  //caracteristicas <-- atributos
+  author: string;
+  name: string;
 
-Explicación de var "any":
+  constructor(a: string, n: string) {
+    this.author = a;
+    this.name = n;
+  }
+
+  //comportamientos <-- metodos
+  play(): string {
+    return `Playing... ${this.name} by ${this.author}`;
+  }
+}
+
+//Obj e instancia
+const song1 = new Song('phoenix', 'LASSO');
+//metodos
+console.log(song1.play());
+//atributos
+console.log(song1.author);
+
+const song2 = new Song('bad bunny', 'safaera');
+console.log(song2.play());
+console.log(song2.author);
+```
+
+### Explicación de var "any":
 ```JavaScript
 class User {
   age:number;
@@ -44,7 +73,7 @@ x = 'Yosef';
 x = 60;
 ```
 
-Segundo ejemplo sobre Profile:
+### Segundo ejemplo sobre Profile:
 ```JavaScript
 class User {
   age:number;
