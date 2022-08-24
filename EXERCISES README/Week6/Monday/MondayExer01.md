@@ -1,4 +1,4 @@
-# ;Monday august 22, 2022
+# Monday august 22, 2022
 1. [x] Declare variable types in TypeScript guided exercise, using Typescript
 ```Typescript
 /*  EXERCISE 1
