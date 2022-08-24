@@ -179,7 +179,7 @@ export function logPerson(person: Person) {
 
 persons.forEach(logPerson);
 ```
-### About the TypePredicates:
+### About the TypePredicates **is**:
 ```JavaScript
 export function isAdmin(person: Person): person is Admin {
     return person.type === 'admin';
