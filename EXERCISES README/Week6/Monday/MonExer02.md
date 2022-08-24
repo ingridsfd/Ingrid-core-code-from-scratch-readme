@@ -287,7 +287,7 @@ console.log();
 console.log('Admins of age 23:');
 adminsOfAge23.forEach(logPerson);
 ```
-### Swap
+### About Swap:
  ```JavaScript
  /* EXERCISE 7
 Intro:
@@ -354,3 +354,22 @@ function test5() {
 
 [test1, test2, test3, test4, test5].forEach((test) => test());
  ```
+### Maximize Data:
+```JavaScript
+ /* EXERCISE 8
+Intro:
+
+    Project grew and we ended up in a situation with
+    some users starting to have more influence.
+    Therefore, we decided to create a new person type
+    called PowerUser which is supposed to combine
+    everything User and Admin have.
+
+Exercise:
+
+    Define type PowerUser which should have all fields
+    from both User and Admin (except for type),
+    and also have type 'powerUser' without duplicating
+    all the fields in the code.
+*/
+ 
