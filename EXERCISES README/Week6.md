@@ -88,7 +88,7 @@ console.log(whichMonths(Season.Fall));
    console.log(randomNumbers);
 ```
 
-3. [ ] TypeScript Object Type exercise
+3. [x] TypeScript Object Type exercise
 4. [ ] TypeScript Unions exercise
 # Week challenges (Tuesday) 💻
 4. [ ] Square(n) Sum exercise, using Typescript
