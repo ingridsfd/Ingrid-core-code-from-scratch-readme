@@ -1,4 +1,4 @@
- # ✅TypeScript Object Type exercise
+# ✅TypeScript Object Type exercise
  ```TypeScript
  /* 
  Intro context for the exercise:
