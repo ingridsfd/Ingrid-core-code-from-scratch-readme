@@ -1,4 +1,6 @@
 # ✅TypeScript Object Type exercise
+
+### Exercise to define the interface:
  ```TypeScript
  /* EXERCISE 1
  Intro context for the exercise:
@@ -43,7 +45,7 @@ export function logPerson(user: User) {
 console.log('Users:');
 users.forEach(logPerson);
 ```
-
+### Exercise to define the type of Person: User | Admin
 ```TypeScript
 /* EXERCISE 2
 
@@ -108,9 +110,10 @@ export function logPerson(user: Person) {
 
 persons.forEach(logPerson);
 ```
-Para utilizar el **operador in**:
+### To use the **in** operator:
 
 ```TypeScript
+/* EXERCISE 3
 Intro:
 
     Since we already have some of the additional
