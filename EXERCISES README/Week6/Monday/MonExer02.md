@@ -225,3 +225,58 @@ filterUsers(
     }
 ).forEach(logPerson);
 ```
+### To understand the Function Overloads - to call a function in different ways:
+```JavaScript
+/* EXCERSICE 6
+Intro:
+
+    Filtering requirements have grown. We need to be
+    able to filter any kind of Persons.
+
+Exercise:
+
+    Fix typing for the filterPersons so that it can filter users
+    and return User[] when personType='user' and return Admin[]
+    when personType='admin'. Also filterPersons should accept
+    partial User/Admin type according to the personType.
+    `criteria` argument should behave according to the
+    `personType` argument value. `type` field is not allowed in
+    the `criteria` field.
+
+Higher difficulty bonus exercise:
+
+    Implement a function `getObjectKeys()` which returns more
+    convenient result for any argument given, so that you don't
+    need to cast it.
+
+    let criteriaKeys = Object.keys(criteria) as (keyof User)[];
+    -->
+    let criteriaKeys = getObjectKeys(criteria);
+*/
+const getObjectKeys = <T>(obj: T) => Object.keys(obj) as (keyof T)[];
+
+export function filterPersons(persons: Person[], personType: 'user', criteria: Partial<Omit<User, 'type'>>): User[];
+export function filterPersons(persons: Person[], personType: 'admin', criteria: Partial<Omit<Admin, 'type'>>): Admin[];
+export function filterPersons(persons: Person[], personType: string, criteria: Partial<Person>): Person[] {
+    return persons
+        .filter((person) => person.type === personType)
+        .filter((person) => {
+            let criteriaKeys = getObjectKeys(criteria);
+            return criteriaKeys.every((fieldName) => {
+                return person[fieldName] === criteria[fieldName];
+            });
+        });
+}
+
+export const usersOfAge23 = filterPersons(persons, 'user', { age: 23 });
+export const adminsOfAge23 = filterPersons(persons, 'admin', { age: 23 });
+
+console.log('Users of age 23:');
+usersOfAge23.forEach(logPerson);
+
+console.log();
+
+console.log('Admins of age 23:');
+adminsOfAge23.forEach(logPerson);
+```
+### Exer7
