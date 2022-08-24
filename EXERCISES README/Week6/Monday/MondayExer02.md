@@ -43,7 +43,3 @@ export function logPerson(user: User) {
 console.log('Users:');
 users.forEach(logPerson);
 ```
- 
- 
- 
- TypeScript Unions exercise
