@@ -1,6 +1,6 @@
 # ✅TypeScript Object Type exercise
  ```TypeScript
- /* 
+ /* EXERCISE 1
  Intro context for the exercise:
 
     We are starting a small community of users. For performance
@@ -45,7 +45,7 @@ users.forEach(logPerson);
 ```
 
 ```TypeScript
-/*
+/* EXERCISE 2
 
 Intro:
 
