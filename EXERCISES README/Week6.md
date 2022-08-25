@@ -208,8 +208,19 @@ export function squareSum(numbers: number[]): number {
   return numbers.reduce((prev: number, curr: number) => prev + Math.pow(curr, 2), 0);
 }
 ```
-3. [ ] A Wolf In Sheep's Clothing exercise, using Typescript
-
+3. [x] A Wolf In Sheep's Clothing exercise, using Typescript
+```JavaScript
+export function warnTheSheep(queue: string[]): string {
+  //1. establish the wolf location
+  let wolfP = queue.indexOf('wolf');
+  //2. put the conditionals to return 'go away' or 'alert the sheep'
+  if(wolfP == queue.length - 1) {
+    return 'Pls go away and stop eating my sheep';
+} else {
+  return `Oi! Sheep number ${Math.abs(wolfP + 1 - queue.length)}! You are about to be eaten by a wolf!`
+}
+};
+```
 # Wednesday 24 august, 2022
 1. [ ] A Rule Of Divisibility By 13 exercise, using Typescript
 2. [ ] Playing With Digits exercise, using Typescript
