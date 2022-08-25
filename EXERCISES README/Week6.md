@@ -199,17 +199,13 @@ export function logPerson(user: Person) {
 persons.forEach(logPerson);
 ```
 # Tuesday 23 august, 2022
-1. [ ] Square(n) Sum exercise, using Typescript
+1. [x] Square(n) Sum exercise, using Typescript
 ```JavaScript
 export function squareSum(numbers: number[]): number {
-  //1. square the nums to the ^2
-  const squareds = Math.pow(0, 2);
-  //2. sum them with reduce
-  const initialVal = 0;
-  let sum = numbers.reduce((prev, curr) => {
-    return prev + curr(squareds);
-  },initialVal);
-    return 0;
+  //1. Turn numbers to squared ^2
+  //const squaredNums = Math.pow(1, 2);
+  // 2. Sum the numbers once squared with .reduce()
+  return numbers.reduce((prev: number, curr: number) => prev + Math.pow(curr, 2), 0);
 }
 ```
 3. [ ] A Wolf In Sheep's Clothing exercise, using Typescript
