@@ -58,3 +58,40 @@ export function requestCoffeeMachineQueueLength(callback: (response: ApiResponse
     });
 }
 ```
+### PROMISE BEHAVIOR
+/* EXERCISE 10 
+
+Intro:
+
+    We have asynchronous functions now, advanced technology.
+    This makes us a tech startup officially now.
+    But one of the consultants spoiled our dreams about
+    inevitable future IT leadership.
+    He said that callback-based asynchronicity is not
+    popular anymore and everyone should use Promises.
+    He promised that if we switch to Promises, this would
+    bring promising results.
+
+Exercise:
+
+    We don't want to reimplement all the data-requesting
+    functions. Let's decorate the old callback-based
+    functions with the new Promise-compatible result.
+    The final function should return a Promise which
+    would resolve with the final data directly
+    (i.e. users or admins) or would reject with an error
+    (or type Error).
+
+    The function should be named promisify.
+
+Higher difficulty bonus exercise:
+
+    Create a function promisifyAll which accepts an object
+    with functions and returns a new object where each of
+    the function is promisified.
+
+    Rewrite api creation accordingly:
+
+        const api = promisifyAll(oldApi);
+
+*/
