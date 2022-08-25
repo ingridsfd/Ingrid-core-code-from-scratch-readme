@@ -223,7 +223,27 @@ export function warnTheSheep(queue: string[]): string {
 ```
 # Wednesday 24 august, 2022
 1. [ ] A Rule Of Divisibility By 13 exercise, using Typescript
-2. [ ] Playing With Digits exercise, using Typescript
+2. [x] Playing With Digits exercise, using Typescript
+```JavaScript
+export class G964 { //excuse the spanglish
+
+    public static digPow = (n: number, p: number) => {
+      let sum =
+      //1. Convertir primero a string, porque solo está en num hasta ahorita
+      n.toString()
+      //2. Hay que convertir de string a array porque .map solo utiliza arrays
+      .split('')
+      //3. find a positive integer k * n = a^(n)+b^(n+1)+c^(n+2);
+      .map(Number)
+      //4. haz la suma de cuando ya tengas cada numero expresado a su correspondiente potencia
+      .reduce((prev: number, curr: number) => prev + Math.pow(curr, p++), 0);
+      //5. if the positive integer is correct, return k. always a positive number is using Math.abs(n);
+      if (sum % n === 0) return sum / n; //se podría haber utilizado Math.abs() para designar el num positivo?
+      //6. if not, return -1
+      else return -1;
+    }
+}
+```
 
 # Thursday 25 august, 2022
 1. [ ] Declare and instantiate classes in TypeScript guided exercise, using Typescript
