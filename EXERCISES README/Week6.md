@@ -198,10 +198,16 @@ export function logPerson(user: Person) {
 
 persons.forEach(logPerson);
 ```
-
-
 # Tuesday 23 august, 2022
+1. [ ] Square(n) Sum exercise, using Typescript
+2. [ ] A Wolf In Sheep's Clothing exercise, using Typescript
 
 # Wednesday 24 august, 2022
+1. [ ] A Rule Of Divisibility By 13 exercise, using Typescript
+2. [ ] Playing With Digits exercise, using Typescript
 
 # Thursday 25 august, 2022
+1. [ ] Declare and instantiate classes in TypeScript guided exercise, using Typescript
+2. [ ] Tile exercise, using Typescript
+3. [ ] Time exercise, using Typescript
+4. [ ] Rational exercise, using Typescript
