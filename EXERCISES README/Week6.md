@@ -312,6 +312,8 @@ console.log(myCar1.accelerate(35));
 console.log(myCar1.brake());
 console.log(myCar1.turn('right'));
 ```
+### Duda: ¿cuál es un ejemplo concreto de poner en private y public las propiedades de la clase?
+
 3. [ ] Tile exercise, using Typescript
 4. [ ] Time exercise, using Typescript
 5. [ ] Rational exercise, using Typescript
