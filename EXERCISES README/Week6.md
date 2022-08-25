@@ -299,6 +299,18 @@ class Car {
         return this._make;
     }
 }
+
+let myCar1 = new Car('Cool Car Company', 'blue', 2);
+console.log(myCar1.color);
+
+let myCar2 = new Car('Galaxy Motors', 'red', 3);
+
+let myCar3 = new Car('Galaxy Motors', 'gray');
+console.log(myCar3.doors);
+
+console.log(myCar1.accelerate(35));
+console.log(myCar1.brake());
+console.log(myCar1.turn('right'));
 ```
 3. [ ] Tile exercise, using Typescript
 4. [ ] Time exercise, using Typescript
