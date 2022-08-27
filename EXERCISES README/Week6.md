@@ -312,7 +312,18 @@ console.log(myCar1.accelerate(35));
 console.log(myCar1.brake());
 console.log(myCar1.turn('right'));
 ```
-### Duda: ¿cuál es un ejemplo concreto de poner en private y public las propiedades de la clase?
+### Apply access modifiers to a class:
+```JavaScript
+// Properties
+private _make: string;
+private _color: string;
+private _doors: number;
+// ...
+private worker(): string {
+    return this._make;
+}
+```
+A real life example was that streaming platforms like Netflix or HBO use these properties to private screen display (screen in black).
 
 3. [ ] Tile exercise, using Typescript
 4. [ ] Time exercise, using Typescript
