@@ -249,50 +249,53 @@ export class G964 { //excuse the spanglish
 
 # Thursday 25 august, 2022
 1. [x] Declare and instantiate classes in TypeScript guided exercise, using Typescript
-### Create a Class
 ```JavaScript
 class Car {
-    // Properties
-    _make: string;
-    _color: string;
-    _doors: number;
+    //Properties
+    private static numberOfCars: number = 0; //new static property
+    private _make: string;
+    private _color: string;
+    private _doors: number;
 
-    // Constructor
+    //Constructor
     constructor(make: string, color: string, doors = 4) {
-    this._make = make;
-    this._color = color;
-    if ((doors % 2) === 0) {
-        this._doors = doors;
-    } else {
-        throw new Error('Doors must be an even number');
+        this._make = make;
+        this._color = color;
+        Car.numberOfCars++; //incrementa el valor del static property
+        if ((doors % 2) === 0) {
+            this._doors = doors;
+        } else {
+            throw new Error('Doors must be an even number');
+        }
     }
-}
-    // Accessors
+
+    //Accessors
     get make() {
         return this._make;
     }
     set make(make) {
         this._make = make;
     }
+
     get color() {
         return 'The color of the car is ' + this._color;
-        }
+    }
     set color(color) {
-    this._color = color;
+        this._color = color;
     }
 
     get doors() {
-    return this._doors;
-}
+        return this._doors;
+    }
     set doors(doors) {
-        if ((doors % 2) === 0) {
+        if((doors % 2) === 0) {
             this._doors = doors;
-        }  else {
-        throw new Error('Doors must be an even number');
+        } else {
+            throw new Error('Doors must be an even number');
         }
     }
 
-    // Methods
+    //Methods
     accelerate(speed: number): string {
         return `${this.worker()} is accelerating to ${speed} MPH.`
     }
@@ -302,57 +305,44 @@ class Car {
     turn(direction: 'left' | 'right'): string {
         return `${this.worker()} is turning ${direction}`;
     }
-        // This function performs work for the other method functions
-    worker(): string {
+    protected worker(): string {
         return this._make;
     }
+    public static getNumberOfCars(): number {
+        return Car.numberOfCars;
+    }
 
-    
 }
-
-let myCar1 = new Car('Cool Car Company', 'blue', 2);  // Instantiates the Car object with all parameters
-
-console.log(myCar1.color); //accesor whats defined in a class
-console.log(myCar1._color); // from the constructor
-
-//let myCar2 = new Car('Galaxy Motors', 'red', 3);
-//console.log(myCar2.doors);
-//console.log(myCar2._doors); //happens the same
+/*
+let myCar1 = new Car('cool Car Company', 'blue', 2);
+console.log(myCar1.color); //imprime desde el accesor
+console.log(myCar1._color); //imprime desde la propiedad
 
 let myCar3 = new Car('Galaxy Motors', 'gray');
-console.log(myCar3.doors);  // returns 4, the default value
+console.log(myCar3.doors);
 
 console.log(myCar1.accelerate(35));
 console.log(myCar1.brake());
 console.log(myCar1.turn('right'));
-```
-### Apply access modifiers to a class:
-```JavaScript
-// Properties
-private _make: string;
-private _color: string;
-private _doors: number;
-// ...
-private worker(): string {
-    return this._make;
-}
-```
-A real life example was that streaming platforms like Netflix or HBO use these properties to private screen display (screen in black).
+*/
+// Instantiate the Car object with all parameters
+let myCar1 = new Car('Cool Car Company', 'blue', 2);
+// Instantiates the Car object with all parameters
+let myCar2 = new Car('Galaxy Motors', 'blue', 2);
+// Returns 2
+console.log(Car.getNumberOfCars());
 
-### How to define static properties
+class ElectricCar extends Car { 
+    //Properties unique to ElectricCar
+    private _range: number;
 
-### Expand class using inhericante(herencia)
-```JavaScript
-class ElectricCar extends Car {
-    // Properties unique to ElectricCar
-    public _range: number;
-
-    // Constructor
+    //Constructor
     constructor(make: string, color: string, range: number, doors = 2) {
         super(make, color, doors);
         this._range = range;
     }
-    // Accessors
+
+    //Accessors
     get range() {
         return this._range;
     }
@@ -360,33 +350,25 @@ class ElectricCar extends Car {
         this._range = range;
     }
 
-    // Methods
+    //Methods
     charge() {
         console.log(this.worker() + " is charging.")
     }
-    // Overrides the brake method of the Car class
     brake(): string {
-        return `${this.worker()}  is braking with the regenerative braking system.`
+        return `${this.worker()} is braking with the regenerative braking system.`
     }
-    
 }
-let spark = new ElectricCar('Spark Motors','silver', 124, 2);
+
+let spark = new ElectricCar('Spark Motors', 'silver', 124, 2);
 let eCar = new ElectricCar('Electric Car Co.', 'black', 263);
-console.log(eCar.doors);         // returns the default, 2
-spark.charge();                  // returns "Spark Motors is charging"
-console.log(spark.brake());  // returns "Spark Motors is braking with the regenerative braking system"
+console.log(eCar.doors); 
+spark.charge(); 
+
+console.log(spark.brake());
 ```
-### Declara una interface para asegurar la forma de una clase
-```JavaScript
-interface Vehicle {
-    make: string;
-    color: string;
-    doors: number;
-    accelerate(speed: number): string;
-    brake(): string;
-    turn(direction: 'left' | 'right'): string;
-}
-```
+
+A real life example was that streaming platforms like Netflix or HBO use these properties to private screen display (screen in black).
+
 
 3. [x] Tile exercise, using Typescript
 ```JavaScript
