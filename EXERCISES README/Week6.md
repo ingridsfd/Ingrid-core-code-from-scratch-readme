@@ -388,7 +388,7 @@ interface Vehicle {
 }
 ```
 
-3. [ ] Tile exercise, using Typescript
+3. [x] Tile exercise, using Typescript
 ```JavaScript
 //Write a definition for a class named Tile that represents Scrabble tiles.
 //The instance variables should be a string named letter and an number named value.
