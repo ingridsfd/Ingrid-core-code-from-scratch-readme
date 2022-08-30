@@ -374,6 +374,18 @@ console.log(eCar.doors);         // returns the default, 2
 spark.charge();                  // returns "Spark Motors is charging"
 console.log(spark.brake());  // returns "Spark Motors is braking with the regenerative braking system"
 ```
+### Declara una interface para asegurar la forma de una clase
+```JavaScript
+interface Vehicle {
+    make: string;
+    color: string;
+    doors: number;
+    accelerate(speed: number): string;
+    brake(): string;
+    turn(direction: 'left' | 'right'): string;
+}
+```
+
 3. [ ] Tile exercise, using Typescript
 4. [ ] Time exercise, using Typescript
 5. [ ] Rational exercise, using Typescript
