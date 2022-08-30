@@ -250,7 +250,7 @@ export class G964 { //excuse the spanglish
 # Thursday 25 august, 2022
 1. [x] Declare and instantiate classes in TypeScript guided exercise, using Typescript
 ```JavaScript
-class Car {
+class Car implements Vehicle {
     //Properties
     private static numberOfCars: number = 0; //new static property
     private _make: string;
@@ -365,6 +365,15 @@ console.log(eCar.doors);
 spark.charge(); 
 
 console.log(spark.brake());
+
+interface Vehicle {
+    make: string;
+    color: string;
+    doors: number;
+    accelerate(speed: number): string;
+    brake(): string;
+    turn(direction: 'left' | 'right'): string;
+}
 ```
 
 A real life example was that streaming platforms like Netflix or HBO use these properties to private screen display (screen in black).
