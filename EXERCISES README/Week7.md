@@ -19,6 +19,9 @@ Definitons of the main concepts:
 * Constructors: is where we define the parameters for values for the instance or static properties.
 * Methods: are behaviours or actions.
 
+Example [insert example here]
+
+
 # Week challenges (Tuesday) 💻
 3. [ ] Input/Output playground, using Typescript
 
