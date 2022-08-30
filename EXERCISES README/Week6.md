@@ -504,6 +504,9 @@ console.log(testArray1.buildArray());
 console.log(testArray2.buildArray());
 ```
 
+### This is what returns, the array in ascending and descending:
+![Screenshot](screenshot.png)
+
 3. [x] Tile exercise, using Typescript
 ```JavaScript
 //Write a definition for a class named Tile that represents Scrabble tiles.
