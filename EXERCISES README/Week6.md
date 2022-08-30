@@ -387,5 +387,39 @@ interface Vehicle {
 ```
 
 3. [ ] Tile exercise, using Typescript
-4. [ ] Time exercise, using Typescript
-5. [ ] Rational exercise, using Typescript
+4. [x] Time exercise, using Typescript
+```JavaScript
+/Write a definition for the class name Time this class would be use to build a digital clock.
+//This class should have 3 attributes of type number. hour, minute and second.
+export class Time {
+    hour: number;
+    minute: number;
+    second: number;
+//Write a constructor that takes parameters named hour, minute and second and initializes the instance variables.
+    constructor(hour: number, minute: number, second: number) {
+        this.hour = hour;
+        this.minute = minute;
+        this.second = second;
+    }
+//Write a method called getInSeconds that returns a number representing the actual time in the instance represented in seconds.
+    getInSeconds(): number {
+        const minutes = this.hour * 60 + this.minute;
+        return minutes * 60 + this.second;
+    }
+//Write a method named printTime that prints the instance variables in a reader-friendly format (not the { ... } format way).
+    printTime() {
+        console.log(` 
+        ===========================
+          Hours: ${this.hour}
+          Minutes: ${this.minute}
+          Seconds: ${this.second}
+        ===========================
+        `)
+    }
+}
+
+//import Main from './Main';
+//const main = new Main();
+//main.start();
+```
+6. [ ] Rational exercise, using Typescript
