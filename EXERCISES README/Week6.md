@@ -417,7 +417,7 @@ class Tile {
 
 5. [x] Time exercise, using Typescript
 ```JavaScript
-/Write a definition for the class name Time this class would be use to build a digital clock.
+//Write a definition for the class name Time this class would be use to build a digital clock.
 //This class should have 3 attributes of type number. hour, minute and second.
 export class Time {
     hour: number;
