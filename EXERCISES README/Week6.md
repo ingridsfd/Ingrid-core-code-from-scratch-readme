@@ -505,7 +505,7 @@ console.log(testArray2.buildArray());
 ```
 
 ### This is what returns, the array in ascending and descending:
-![Results that printed in my VSC](results.jpg)
+![image](https://user-images.githubusercontent.com/98929413/187553213-9ded50ad-08b5-4253-8772-04bd808f440c.png)
 
 3. [x] Tile exercise, using Typescript
 ```JavaScript
