@@ -223,7 +223,9 @@ export function warnTheSheep(queue: string[]): string {
 ```
 # Wednesday 24 august, 2022
 1. [ ] A Rule Of Divisibility By 13 exercise, using Typescript
-2. [x] Playing With Digits exercise, using Typescript
+
+
+3. [x] Playing With Digits exercise, using Typescript
 ```JavaScript
 export class G964 { //excuse the spanglish
 
@@ -387,7 +389,33 @@ interface Vehicle {
 ```
 
 3. [ ] Tile exercise, using Typescript
-4. [x] Time exercise, using Typescript
+```JavaScript
+//Write a definition for a class named Tile that represents Scrabble tiles.
+//The instance variables should be a string named letter and an number named value.
+class Tile {
+    letter: string;
+    value: number;
+//Write a constructor that takes parameters named letter and value and initializes the instance variables.
+    constructor(letter: string, value: number;) {
+        this.letter = letter;
+        this.value = value;
+    }
+//Write a method named printTile that prints the instance variables in a reader-friendly format (not the { ... } format way).
+    printTile(); {
+    console.log(`
+
+      ==================
+        Letter: ${this.letter}
+        Value: ${this.value}
+      ==================
+
+        `);
+    }
+
+}
+```
+
+5. [x] Time exercise, using Typescript
 ```JavaScript
 /Write a definition for the class name Time this class would be use to build a digital clock.
 //This class should have 3 attributes of type number. hour, minute and second.
