@@ -1,5 +1,5 @@
 # Week challenges (Monday) 💻
-1. [ ] Watch Object Oriented Programming - The Four Pillars of OOP
+1. [x] Watch Object Oriented Programming - The Four Pillars of OOP
 2. [ ] Readme - OOP exercise
 # Week challenges (Tuesday) 💻
 3. [ ] Input/Output playground, using Typescript
