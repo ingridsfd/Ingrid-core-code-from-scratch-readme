@@ -1,6 +1,12 @@
 # Week challenges (Monday) 💻
 1. [x] Watch Object Oriented Programming - The Four Pillars of OOP
-2. [ ] Readme - OOP exercise
+
+Surrounds the topics of
+* Abstraction: Show the user only the necessary details
+* Inheritance: code reusability
+* Polymorphism: Determina which functions to run while the programm is running
+* Encapsulation: setting to private certain properties to still encapsulate within the object
+3. [ ] Readme - OOP exercise
 # Week challenges (Tuesday) 💻
 3. [ ] Input/Output playground, using Typescript
 # Week challenges (Wednesday) 💻
