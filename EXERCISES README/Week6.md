@@ -569,4 +569,39 @@ export class Time {
 //const main = new Main();
 //main.start();
 ```
-6. [ ] Rational exercise, using Typescript
+6. [x] Rational exercise, using Typescript
+```JavaScript
+//Create a new class named Rational. A Rational object should have two number instance variables to store the numerator and denominator.
+class Rational {
+    numerator: number;
+    denominator: number;
+//Write a constructor for your class that takes two arguments and that uses them to initalize the instance variables.
+    constructor(numerator: number, denominator: number) {
+        this.numerator = numerator;
+        this.denominator = denomintator;
+    }
+//Write a method called printRational that prints the object in some reasonable format.
+    printRational {
+        console.log(`${this.numerator} / ${this.denominator}`);
+    }
+//Write a method called invert that inverts the number by swapping the numerator and denominator. This method should modify the instance variables.
+    invert {
+        [numerator: number, denominator: number] = [denominator: number, numerator: number];
+    }
+//Write a method called toFloat that converts the rational number to a floating-point number and returns the result. This method is a pure function it does not modify the object.
+    toFloat {
+        return this.numerator / this.denominator;
+    }
+//Write method named reduce that reduces a rational number to its lowest terms by finding the greatest common divisor (GCD) of the numerator and denominator and dividing through.
+    gcd(n: number, d: number): number {
+        if(d == 0) return n;
+        return this.gcd(d, n % d);
+    }
+    reduce() {
+        const gcd = this.gcd(this.numerator, this.denominator);
+        this.numerator = this.numerator / gcd;
+        this.denominator = this.denominator /gcd;
+    }
+//This method should modify the instance variables. To calculate the GCD you can search for Euclidian Algorithm: GCD.
+}
+```
