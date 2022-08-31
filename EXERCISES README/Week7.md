@@ -23,15 +23,19 @@ Example [insert example here]
 
 
 # Week challenges (Tuesday) 💻
-3. [ ] Input/Output playground, using Typescript
+3. [x] Input/Output playground, using Typescript
 
 # Week challenges (Wednesday) 💻
 4. [ ] Build Tower exercise, using Typescript
 5. [ ] Meeting exercise, using Typescript
 
 # Week challenges (Thursday) 💻
-6. [ ] Interfaces guided exercise, using Typescript
-7. [x] ✨Complete your 4th Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+6. [x] Interfaces guided exercise, using Typescript
+```JavaScript
+insert code here
+```
+
+8. [x] ✨Complete your 4th Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 
 # Extra (It is not mandatory for the Readme) ⭐
 8. [ ] Menu exercise, using Typescript
