@@ -32,7 +32,37 @@ Example [insert example here]
 # Week challenges (Thursday) 💻
 6. [x] Interfaces guided exercise, using Typescript
 ```JavaScript
-insert code here
+//About using TypeScript interfaces
+interface IceCream {
+  flavor: string;
+  scoops: number;
+  instructions?: string;
+}
+
+let myIceCream: Sundae = {
+  flavor: 'vanilla',
+  scoops: 2,
+  sauce: 'caramel',
+  nuts: true
+}
+console.log(myIceCream.flavor);
+
+function tooManyScoops(dessert: Sundae) {
+  if (dessert.scoops >= 4) {
+    return dessert.scoops + ' is too many scoops!';
+  } else {
+    return 'Your order will be ready soon!';
+  }
+}
+
+console.log(tooManyScoops({flavor: 'vanilla', scoops: 5, sauce: 'caramel'}));
+//extend the interface
+interface Sundae extends IceCream {
+  sauce: 'chocolate' | 'caramel' | 'strawberry';
+  nuts?: boolean;
+  whippedCream?: boolean;
+  instructions?: string;
+}
 ```
 
 8. [x] ✨Complete your 4th Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
