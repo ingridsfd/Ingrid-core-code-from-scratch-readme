@@ -33,6 +33,9 @@ For this case, I'm creating an object class for movies. Movies can have a genre,
 #### Accessors
 #### Instances
 #### Interfaces
+![image](https://user-images.githubusercontent.com/98929413/187811010-80d369c2-37d0-42d8-ae6e-2c73e7a7a49b.png)
+
+
 
 ### Class: is the overall picture for all the previous sections created
 
