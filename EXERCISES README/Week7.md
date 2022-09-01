@@ -32,6 +32,9 @@ For this case, I'm creating an object class for movies. Movies can have a genre,
 
 #### Accessors
 #### Instances
+![image](https://user-images.githubusercontent.com/98929413/187813829-6da0e2a6-f6b2-4afe-9fe0-3853208a5a9c.png)
+
+
 #### Interfaces
 ![image](https://user-images.githubusercontent.com/98929413/187811010-80d369c2-37d0-42d8-ae6e-2c73e7a7a49b.png)
 
