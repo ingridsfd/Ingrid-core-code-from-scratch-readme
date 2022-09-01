@@ -222,9 +222,19 @@ export function warnTheSheep(queue: string[]): string {
 };
 ```
 # Wednesday 24 august, 2022
-1. [ ] A Rule Of Divisibility By 13 exercise, using Typescript
-
-
+1. [x] A Rule Of Divisibility By 13 exercise, using Typescript
+```JavaScript
+export function thirt(n: number): number {
+ let remainders: number[] = [1, 10, 9, 12, 3, 4];
+  let result = n
+    .toString()
+    .split('')
+    .reverse()
+    .map((c: string, i: number) => parseInt(c) * remainders[i % 6])
+    .reduce((p: number, c: number) => (p += c));
+  return n == result ? result : thirt(result);
+}
+```
 3. [x] Playing With Digits exercise, using Typescript
 ```JavaScript
 export class G964 { //excuse the spanglish
