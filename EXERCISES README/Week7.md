@@ -19,7 +19,14 @@ Definitons of the main concepts:
 * Constructors: is where we define the parameters for values for the instance or static properties.
 * Methods: are behaviours or actions.
 
-Example [insert example here]
+### Example
+This is my guide to show an example on how to use OOP in typescript:
+#### Classes
+#### Objects
+#### Encapsulation
+#### Accessors
+#### Instances
+#### Interfaces
 
 
 # Week challenges (Tuesday) 💻
