@@ -21,13 +21,20 @@ Definitons of the main concepts:
 
 ### Example
 This is my guide to show an example on how to use OOP in typescript:
-#### Classes
-#### Objects
+#### Object
+![image](https://user-images.githubusercontent.com/98929413/187808072-0de48f03-732c-4454-a46c-6b06a235e759.png)
+
+For this case, I'm creating an object class for movies. Movies can have a genre, a year of creation and whether or not they have a prequel or sequel. 
+
 #### Encapsulation
+![image](https://user-images.githubusercontent.com/98929413/187809024-d5709d05-3b96-49f4-8d20-91215ff7352a.png)
+
+
 #### Accessors
 #### Instances
 #### Interfaces
 
+### Class: is the overall picture for all the previous sections created
 
 # Week challenges (Tuesday) 💻
 3. [x] Input/Output playground, using Typescript
