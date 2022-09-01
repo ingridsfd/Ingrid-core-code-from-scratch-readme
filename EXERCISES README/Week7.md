@@ -55,7 +55,26 @@ Just a screenshot from the things I found the most interesting while doing this 
 
 # Week challenges (Wednesday) 💻
 4. [ ] Build Tower exercise, using Typescript
-5. [ ] Meeting exercise, using Typescript
+5. [x] Meeting exercise, using Typescript
+```JavaScript
+export function meeting(s: string): string {
+  return s
+  //1. Pasar el string to uppercase
+  .toUpperCase()
+  //2. Se corta todo el string, dentro un arreglo como una sola unidad grande 
+    .split(';')
+  //3. como ya está en tipo arreglo pero como unidad grande, procedemos a crear un nuevo arreglo con .map()
+  //donde podemos decir que, en redacción con signo + '(' + los puntos : se convierten a coma con (':')
+  //con el .reverse() es como le decimos que comience por el apellido y después nombre
+  //luego, con un (', ') le decimos que nos agregue la coma entre el apellido ya en primer lugar, y seguido del nombre
+  //cerramos paréntesis con + ')'
+    .map((n: string) => '(' + n.split(':').reverse().join(', ') + ')' )
+  //ordenamos por oden alfabetico
+    .sort()
+  //lo regresamos a un arreglo donde fuera de los paréntesis no tienen coma, sigue siendo una unidad grande dentro del array
+    .join('');
+}
+```
 
 # Week challenges (Thursday) 💻
 6. [x] Interfaces guided exercise, using Typescript
