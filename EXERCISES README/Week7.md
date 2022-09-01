@@ -47,6 +47,9 @@ For this case, I'm creating an object class for movies. Movies can have a genre,
 
 # Week challenges (Tuesday) 💻
 3. [x] Input/Output playground, using Typescript
+Just a screenshot from the things I found the most interesting while doing this exercise:
+![image](https://user-images.githubusercontent.com/98929413/187842590-82f470ce-ead9-43c2-9e80-15ca0972b574.png)
+
 
 # Week challenges (Wednesday) 💻
 4. [ ] Build Tower exercise, using Typescript
