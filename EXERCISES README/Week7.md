@@ -51,6 +51,7 @@ For this case, I'm creating an object class for movies. Movies can have a genre,
 Just a screenshot from the things I found the most interesting while doing this exercise:
 ![image](https://user-images.githubusercontent.com/98929413/187842590-82f470ce-ead9-43c2-9e80-15ca0972b574.png)
 
+![image](https://user-images.githubusercontent.com/98929413/188008269-c02967a0-b884-48d7-a270-e73146b65880.png)
 
 # Week challenges (Wednesday) 💻
 4. [ ] Build Tower exercise, using Typescript
