@@ -161,6 +161,3 @@ console.log(conventionalPayment)
 ```
 
 8. [x] ✨Complete your 4th Core Challenge. This is one of the requirements for the certification, where you'll boost your dev professional-brand.
-
-# Extra (It is not mandatory for the Readme) ⭐
-8. [ ] Menu exercise, using Typescript
