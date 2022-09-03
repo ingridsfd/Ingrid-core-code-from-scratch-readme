@@ -6,8 +6,6 @@ I use this as a notebook. This also helps me practice Markdown format. There is 
 # My mission statement:
 I am Ingrid, a web software developer. I come from a background in humanities and politics. However, my first project involving technology was creating content in Social Media along with a little of graphic design basics. In my brief and recent experience with technology, I encountered this fascination for Web Development. Currently, I’m building with JavaScript and learning to script with React and Node.js at CoreCode “Software Development Fundamentals” bootcamp. I’m looking forward to growing as a developer. I’m very curious and committed in every project I involve. Nice to e-meet you!
 
-# Welcome to my README:
-
 ## Index of my tracking tasks
 
 - Week 1 : [Introduction to programming & Javascript](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week1.md)
