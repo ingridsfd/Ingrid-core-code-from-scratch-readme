@@ -11,7 +11,8 @@
 # Week challenges (Tuesday) 💻
 2. [ ] Develop typed functions by using TypeScript guided exercise, using Typescript
 3. [ ] Read Abstract Classes
-4. [ ] Watch Abstract Classes vs Interfaces video
+
+5. [ ] Watch Abstract Classes vs Interfaces video
 
 # Week challenges (Wednesday) 💻
 5. [ ] Make the Deadfish Swim exercise, using Typescript
