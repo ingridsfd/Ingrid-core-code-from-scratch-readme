@@ -12,3 +12,14 @@
 2. [ ] Develop typed functions by using TypeScript guided exercise, using Typescript
 3. [ ] Read Abstract Classes
 4. [ ] Watch Abstract Classes vs Interfaces video
+
+# Week challenges (Wednesday) 💻
+5. [ ] Make the Deadfish Swim exercise, using Typescript
+6. [ ] Duplicate Encoder exercise, using Typescript
+7. [ ] Find The Odd Int exercise, using Typescript
+8. [ ] Which Are In? exercise, using Typescript
+
+# Week challenges (Thursday) 💻
+9. [ ] Define generics in TypeScript guided exercise, using Typescript
+10. [ ] Generics exercise, using Typescript
+11. [ ] Upload resume
