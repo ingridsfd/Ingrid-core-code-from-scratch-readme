@@ -8,3 +8,7 @@
 * Abstraction: Hide the complex. Show the essentials.
 * Inheritance: Avoid redundant code.
 * Polymorphism: Refactor "ugly" switch/case statements.
+# Week challenges (Tuesday) 💻
+2. [ ] Develop typed functions by using TypeScript guided exercise, using Typescript
+3. [ ] Read Abstract Classes
+4. [ ] Watch Abstract Classes vs Interfaces video
