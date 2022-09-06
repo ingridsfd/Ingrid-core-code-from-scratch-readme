@@ -45,6 +45,13 @@ export function inArray(a1: string[], a2: string[]): string[] {
   }).sort();
   
 }
+
+var a1 = ["live", "strong", "lyal", "lysh", "arp"]
+var a2:string[] = ["lively", "alive", "harp", "sharp", "armstrong"]
+//   r = ["live", "strong", "arp"] ==> ["arp","live", "strong" ]
+
+
+console.log(inArray(a1, a2));
 ```
 
 # Week challenges (Thursday) 💻
