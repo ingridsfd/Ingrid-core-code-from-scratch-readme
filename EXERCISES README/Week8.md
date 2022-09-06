@@ -23,7 +23,25 @@ Question to considerate: What happens if two parents have the same behavior but 
 5. [ ] Make the Deadfish Swim exercise, using Typescript
 6. [ ] Duplicate Encoder exercise, using Typescript
 7. [ ] Find The Odd Int exercise, using Typescript
-8. [ ] Which Are In? exercise, using Typescript
+8. [x] Which Are In? exercise, using Typescript
+```JavaScript
+export function inArray(a1: string[], a2: string[]): string[] {
+  
+  // 0. Quitar repetidos de a1
+  // 1. Recorrer a1
+  // 1.1 Mientras recorro a1, filtro los elementos de a1
+  // 1.1.1 Filtrar:
+  // 1.1.1.1 Se quedan los elementos que son un substring de un string en a2
+  // 1.1.2 sort sobre arreglo filtrado
+  // 1.1.3 return de arreglo filtrado
+  
+  return [... new Set(a1)].filter((subStr:string) => {
+    let result = a2.find((str:string) => str.includes(subStr));
+    return result !== undefined;
+  }).sort();
+  
+}
+```
 
 # Week challenges (Thursday) 💻
 9. [ ] Define generics in TypeScript guided exercise, using Typescript
