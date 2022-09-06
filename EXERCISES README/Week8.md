@@ -11,9 +11,13 @@
 # Week challenges (Tuesday) 💻
 2. [ ] Develop typed functions by using TypeScript guided exercise, using Typescript
 3. [x] Read Abstract Classes
+
 Type 1: To add the properties as such. En este, la propiedad tiene que asignarse despues a la clase que se extiende también.
+
 Type 2: The use of 'super()' to initialize it.
+
 5. [x] Watch Abstract Classes vs Interfaces video
+
 La diferencia entre clases abstractas e interfaces: The main difference is what they mean semantically.
 Abstract classes generalize behavior. From the general to the particular.
 Interfaces standarize behavior... so we do not break existing implementations.
