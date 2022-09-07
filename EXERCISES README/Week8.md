@@ -9,8 +9,15 @@
 * Inheritance: Avoid redundant code.
 * Polymorphism: Refactor "ugly" switch/case statements.
 # Week challenges (Tuesday) 💻
-2. [ ] Develop typed functions by using TypeScript guided exercise, using Typescript
-3. [x] Read Abstract Classes
+2. [x] Develop typed functions by using TypeScript guided exercise, using Typescript
+
+This module consisted of understanding and practicing
+* Default values
+* Expressions
+* Optional values
+* Required values
+
+4. [x] Read Abstract Classes
 
 Type 1: To add the properties as such. En este, la propiedad tiene que asignarse despues a la clase que se extiende también.
 
