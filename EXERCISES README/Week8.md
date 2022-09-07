@@ -50,10 +50,39 @@ Question to considerate: What happens if two parents have the same behavior but 
 * Instance: When data is assigned and called along the object.
 
 # Week challenges (Wednesday) 💻
-5. [ ] Make the Deadfish Swim exercise, using Typescript
-6. [ ] Duplicate Encoder exercise, using Typescript
-7. [ ] Find The Odd Int exercise, using Typescript
-8. [x] Which Are In? exercise, using Typescript
+5. [x] Make the Deadfish Swim exercise, using Typescript (switch-case)
+```JavaScript
+/** return the output array and ignore all non-op characters */
+export function parse(data: string): number[] {
+  //1. asignar variables iniciales
+  let value = 0;
+  //2. asignar a otra variable convertir string a array
+  const result: number[] = [];
+  const fishCommands = data.split('');
+  //3. en un método forEach designar el switch-case para:
+  fishCommands.forEach((fishCommands: string) => {
+    switch (fishCommands) {
+        case 'i': value++;
+        break;
+        case 'd': value--;
+        break;
+        case 's': value = Math.pow(value, 2);
+        break;
+        case 'o': result.push(value);
+        break;
+    }
+  });
+  // incremento de i
+  // decremento de d
+  // de s al cuadrado
+  // de regresa los valores al array y los demuestra
+  // 4. retorna resultado
+  return result; 
+}
+```
+7. [ ] Duplicate Encoder exercise, using Typescript
+8. [ ] Find The Odd Int exercise, using Typescript
+9. [x] Which Are In? exercise, using Typescript
 ```JavaScript
 export function inArray(a1: string[], a2: string[]): string[] {
   
