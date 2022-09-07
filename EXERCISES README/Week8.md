@@ -30,6 +30,25 @@ Abstract classes generalize behavior. From the general to the particular.
 Interfaces standarize behavior... so we do not break existing implementations.
 Question to considerate: What happens if two parents have the same behavior but we want to extend or implement, which will it have?
 
+---
+* la clase abstracta puede ser extendida solo una vez y es padre-hija, siempre
+* compartir comportamientos, para generalizar comportamientos
+* Extender la funcionalidad general que está en la clase
+* extender comportamientos generales
+* ya no se pueden tener padres abstractos
+* por esto se prefieren las interfaces
+* solo se puede tener 1 solo padre, sea abstracto o no
+---
+* las interfaces se pueden implementar muchas
+
+* definir comportamientos UNICAMENTE no da extents
+
+* Patrón a seguir
+---
+* clase generica: para definir clases de tipos. revisar que los tipos de variables corran bien durante el programa
+* podemos enviar tipos a la clase
+* Instance: When data is assigned and called along the object.
+
 # Week challenges (Wednesday) 💻
 5. [ ] Make the Deadfish Swim exercise, using Typescript
 6. [ ] Duplicate Encoder exercise, using Typescript
