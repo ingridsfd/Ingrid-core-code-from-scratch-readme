@@ -96,8 +96,30 @@ export function duplicateEncode(word: string){
   return string
 }
 ```
+```JavaScript
+export function duplicateEncode(word: string){ // Success
+  // lower case
+  word = word.toLowerCase(); // 'success'
+  // (string) | (string[]) ***
+  const characters: string[] = word.split(''); // ['s','u','c','c','e','s','s']
+  // iterar 
+  const encoded: string[] = characters.map((character) => {
+    character = character.replace(/\(/g, '\\(');
+    character = character.replace(/\)/g, '\\)');
+    const regex = new RegExp(character, 'g');
+    const found = word.match(regex) || [];
+    if(found.length === 1) {
+      return '(';
+    } 
+    return ')';  
+  }); // [')','(',')',')','(',')',')']
+  return encoded.join('');  
+}
+```
+
 9. [ ] Find The Odd Int exercise, using Typescript
-10. [x] Which Are In? exercise, using Typescript
+
+11. [x] Which Are In? exercise, using Typescript
 ```JavaScript
 export function inArray(a1: string[], a2: string[]): string[] {
   
