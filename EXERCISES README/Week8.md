@@ -149,4 +149,4 @@ console.log(inArray(a1, a2));
 # Week challenges (Thursday) 💻
 9. [x] Define generics in TypeScript guided exercise, using Typescript
 10. [ ] Generics exercise, using Typescript
-11. [ ] Upload resume
+11. [x] Upload resume
