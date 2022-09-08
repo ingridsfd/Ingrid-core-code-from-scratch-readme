@@ -80,9 +80,24 @@ export function parse(data: string): number[] {
   return result; 
 }
 ```
-7. [ ] Duplicate Encoder exercise, using Typescript
-8. [ ] Find The Odd Int exercise, using Typescript
-9. [x] Which Are In? exercise, using Typescript
+7. [x] Duplicate Encoder exercise, using Typescript
+```JavaScript
+export function duplicateEncode(word: string){
+  word = word.toLowerCase();
+  var string = "";
+  const characters: string[]= word.split('');
+    for (var i = 0; i < characters.length; i++) {
+    if (characters.indexOf(characters[i]) === characters.lastIndexOf(characters[i])) {
+      string += "(";
+    } else {
+      string += ")";
+    }
+  }
+  return string
+}
+```
+9. [ ] Find The Odd Int exercise, using Typescript
+10. [x] Which Are In? exercise, using Typescript
 ```JavaScript
 export function inArray(a1: string[], a2: string[]): string[] {
   
