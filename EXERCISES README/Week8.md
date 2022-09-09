@@ -102,7 +102,17 @@ export function duplicateEncode(word: string){ // Success
 }
 ```
 
-9. [ ] Find The Odd Int exercise, using Typescript
+9. [x] Find The Odd Int exercise, using Typescript
+```JavaSCript
+export const findOdd = (xs: number[]): number => {
+  // happy coding!
+  //1. Hay que encontrar y retornar las veces impares que aparece un num
+  return xs.find((el: number, index: number, array: number[]) =>
+  //2. Siempre habrá un entero que aparezca un num de veces impar
+  //condition: if(xs === %2)
+  array.filter((el2: number) => el2 === el).length % 2 === 1) || -1
+};
+```
 
 11. [x] Which Are In? exercise, using Typescript
 ```JavaScript
