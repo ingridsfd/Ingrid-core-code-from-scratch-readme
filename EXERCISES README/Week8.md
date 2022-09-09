@@ -82,21 +82,6 @@ export function parse(data: string): number[] {
 ```
 7. [x] Duplicate Encoder exercise, using Typescript
 ```JavaScript
-export function duplicateEncode(word: string){
-  word = word.toLowerCase();
-  var string = "";
-  const characters: string[]= word.split('');
-    for (var i = 0; i < characters.length; i++) {
-    if (characters.indexOf(characters[i]) === characters.lastIndexOf(characters[i])) {
-      string += "(";
-    } else {
-      string += ")";
-    }
-  }
-  return string
-}
-```
-```JavaScript
 export function duplicateEncode(word: string){ // Success
   // lower case
   word = word.toLowerCase(); // 'success'
