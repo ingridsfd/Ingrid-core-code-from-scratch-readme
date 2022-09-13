@@ -10,4 +10,4 @@
 Time to catch up ⏱️ or do extra work ⭐
 # Week challenges (Thursday) 💻
 8. [ ] ✨ 6th Core Challenge, complete your Interview Prep Core Challenge
-Time to catch up ⏱️ or do extra work ⭐
+9. Time to catch up ⏱️ or do extra work ⭐
