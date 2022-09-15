@@ -1,6 +1,6 @@
 # Monday 22 august, 2022
 1. [x] Declare variable types in TypeScript guided exercise, using Typescript
-```TypeScript
+```Typescript
 /*  EXERCISE 1
     TODO: Modify the code to add types to the variable declarations. 
     The resulting JavaScript should look the same as the original example when you're done. */
@@ -88,7 +88,7 @@ console.log(whichMonths(Season.Fall));
    console.log(randomNumbers);
 ```
 3. [x] TypeScript Object Type exercise
-```TypeScript
+```Typescript
  /* EXERCISE 1
  Intro context for the exercise:
 
@@ -134,7 +134,7 @@ users.forEach(logPerson);
 ```
 5. [x] TypeScript Unions exercise
 ### Exercise to define the type of Person: User | Admin
-```TypeScript
+```Typescript
 /* EXERCISE 2
 
 Intro:
@@ -200,7 +200,7 @@ persons.forEach(logPerson);
 ```
 # Tuesday 23 august, 2022
 1. [x] Square(n) Sum exercise, using Typescript
-```JavaScript
+```Typescript
 export function squareSum(numbers: number[]): number {
   //1. Turn numbers to squared ^2
   //const squaredNums = Math.pow(1, 2);
@@ -209,7 +209,7 @@ export function squareSum(numbers: number[]): number {
 }
 ```
 3. [x] A Wolf In Sheep's Clothing exercise, using Typescript
-```JavaScript
+```Typescript
 export function warnTheSheep(queue: string[]): string {
   //1. establish the wolf location
   let wolfP = queue.indexOf('wolf');
@@ -223,7 +223,7 @@ export function warnTheSheep(queue: string[]): string {
 ```
 # Wednesday 24 august, 2022
 1. [x] A Rule Of Divisibility By 13 exercise, using Typescript
-```JavaScript
+```Typescript
 export function thirt(n: number): number {
  let remainders: number[] = [1, 10, 9, 12, 3, 4];
   let result = n
@@ -236,7 +236,7 @@ export function thirt(n: number): number {
 }
 ```
 3. [x] Playing With Digits exercise, using Typescript
-```JavaScript
+```Typescript
 export class G964 { //excuse the spanglish
 
     public static digPow = (n: number, p: number) => {
@@ -259,7 +259,7 @@ export class G964 { //excuse the spanglish
 
 # Thursday 25 august, 2022
 1. [x] Declare and instantiate classes in TypeScript guided exercise, using Typescript
-```JavaScript
+```Typescript
 class Car implements Vehicle {
     //Properties
     private static numberOfCars: number = 0; //new static property
@@ -389,7 +389,7 @@ interface Vehicle {
 A real life example was that streaming platforms like Netflix or HBO use these properties to private screen display (screen in black).
 
 ### Second part of the Microsoft guided exercise:
-```JavaScript
+```Typescript
 /*  Module 5: Declare and instantiate classes in TypeScript
     Lab Start  */
 
@@ -518,7 +518,7 @@ console.log(testArray2.buildArray());
 ![image](https://user-images.githubusercontent.com/98929413/187553213-9ded50ad-08b5-4253-8772-04bd808f440c.png)
 
 3. [x] Tile exercise, using Typescript
-```JavaScript
+```Typescript
 //Write a definition for a class named Tile that represents Scrabble tiles.
 //The instance variables should be a string named letter and an number named value.
 class Tile {
@@ -545,7 +545,7 @@ class Tile {
 ```
 
 5. [x] Time exercise, using Typescript
-```JavaScript
+```Typescript
 //Write a definition for the class name Time this class would be use to build a digital clock.
 //This class should have 3 attributes of type number. hour, minute and second.
 export class Time {
@@ -580,7 +580,7 @@ export class Time {
 //main.start();
 ```
 6. [x] Rational exercise, using Typescript
-```JavaScript
+```Typescript
 //Create a new class named Rational. A Rational object should have two number instance variables to store the numerator and denominator.
 class Rational {
     numerator: number;
