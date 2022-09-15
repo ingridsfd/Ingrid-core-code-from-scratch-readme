@@ -51,7 +51,7 @@ Question to considerate: What happens if two parents have the same behavior but 
 
 # Week challenges (Wednesday) 💻
 5. [x] Make the Deadfish Swim exercise, using Typescript (switch-case)
-```JavaScript
+```Typescript
 /** return the output array and ignore all non-op characters */
 export function parse(data: string): number[] {
   //1. asignar variables iniciales
@@ -81,7 +81,7 @@ export function parse(data: string): number[] {
 }
 ```
 7. [x] Duplicate Encoder exercise, using Typescript
-```JavaScript
+```Typescript
 export function duplicateEncode(word: string){ // Success
   // lower case
   word = word.toLowerCase(); // 'success'
@@ -103,7 +103,7 @@ export function duplicateEncode(word: string){ // Success
 ```
 
 9. [x] Find The Odd Int exercise, using Typescript
-```JavaSCript
+```Typescript
 export const findOdd = (xs: number[]): number => {
   // happy coding!
   //1. Hay que encontrar y retornar las veces impares que aparece un num
@@ -115,7 +115,7 @@ export const findOdd = (xs: number[]): number => {
 ```
 
 11. [x] Which Are In? exercise, using Typescript
-```JavaScript
+```Typescript
 export function inArray(a1: string[], a2: string[]): string[] {
   
   // 0. Quitar repetidos de a1
@@ -143,5 +143,89 @@ console.log(inArray(a1, a2));
 
 # Week challenges (Thursday) 💻
 9. [x] Define generics in TypeScript guided exercise, using Typescript
-10. [ ] Generics exercise, using Typescript
-11. [x] Upload resume
+10. [x] Generics exercise, using Typescript
+
+Node.ts
+```Typescript
+export default class Node<T> {
+  public data: T;
+  public next: Node<T> | null = null;
+
+  constructor(data: T) {
+    this.data = data;
+  }
+}
+```
+LinkedLists.ts
+```Typescript
+import Node from './Node';
+export default class LinkedList<T> {
+  private head: Node<T> | null = null;
+  private length: number = 0;
+
+  get size(): number {
+    return this.length;
+  }
+
+  public addFirst(value: T) {
+    //1. primero recorre la lista, para agregar el primero
+    if (this.head === null) {
+      this.add(value);
+    } else {
+      let node = new Node(value);
+      node.next = this.head;
+      this.head = node;
+      this.length++;
+    }
+    
+  }
+
+  public add(data: T) {
+    if (this.head === null) {
+      this.head = new Node(data);
+    } else {
+      let temp = this.head;
+      while (temp.next !== null) {
+        temp = temp.next;
+      }
+      temp.next = new Node(data);
+    }
+    this.length++;
+  }
+
+  public remove() {
+    if (this.head !== null) {
+      this.head = this.head.next;
+      this.length--;
+    }
+  }
+
+  public toString(): string {
+    if (this.length === 0) return '[]';
+    let data = '';
+    let node = this.head;
+    while (node !== null) {
+      data = `${data}${node.data},`;
+      node = node.next;
+    }
+    data = data.slice(0, -1);
+    return `[${data}]`;
+  }
+
+  public removeLast(): void {
+    if (this.head !== null) {
+      // 1. primero recorre a la lista, para remover el último
+      let node = this.head;
+      let previous: Node<T> = node;
+      while (node.next !== null) {
+        previous = node;
+        node = node.next
+      }
+      //2. si ya llegó al lugar next = null
+      previous.next = null
+      this.length--;
+    }
+  }
+}
+```
+12. [x] Upload resume
