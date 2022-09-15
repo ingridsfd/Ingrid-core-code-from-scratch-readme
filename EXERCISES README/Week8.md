@@ -228,4 +228,7 @@ export default class LinkedList<T> {
   }
 }
 ```
+Program run/start:
+![image](https://user-images.githubusercontent.com/98929413/190287546-091d8f73-1003-465e-8015-cd3b45bc1191.png)
+
 12. [x] Upload resume
