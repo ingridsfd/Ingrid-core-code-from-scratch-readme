@@ -56,7 +56,7 @@ Just a screenshot from the things I found the most interesting while doing this 
 # Week challenges (Wednesday) 💻
 4. [ ] Build Tower exercise, using Typescript
 5. [x] Meeting exercise, using Typescript
-```JavaScript
+```Typescript
 export function meeting(s: string): string {
   return s
   //1. Pasar el string to uppercase
@@ -78,7 +78,7 @@ export function meeting(s: string): string {
 
 # Week challenges (Thursday) 💻
 6. [x] Interfaces guided exercise, using Typescript
-```JavaScript
+```Typescript
 //About using TypeScript interfaces
 interface IceCream {
   flavor: string;
@@ -112,7 +112,7 @@ interface Sundae extends IceCream {
 }
 ```
 Declaring and implementing interfaces
-```JavaScript
+```Typescript
 /* Module 3: Implement interfaces in TypeScript
    Lab Start  */
 
