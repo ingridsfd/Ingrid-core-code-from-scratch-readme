@@ -55,7 +55,13 @@ Just a screenshot from the things I found the most interesting while doing this 
 
 # Week challenges (Wednesday) 💻
 4. [ ] Build Tower exercise, using Typescript
-5. [x] Meeting exercise, using Typescript
+```Typescript
+export const towerBuilder = (nFloors: number): string[] => {
+  // build here ["  *  ", "  ***  ", "  *****  "]
+  
+}
+```
+6. [x] Meeting exercise, using Typescript
 ```Typescript
 export function meeting(s: string): string {
   return s
