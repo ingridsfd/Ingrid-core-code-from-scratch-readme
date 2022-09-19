@@ -9,6 +9,17 @@ Notes:
 * We no longer have to write "addEventListener" and instead manipulate the DOM and updates it.
 * Angular is more a framework solution.
 * Whereas React only takes care of the view of the library. Views and syncs with sate for routing, HTTPS services and API to learn.
-3. [ ] Watch this Learn React video
+3. [x] Watch this Learn React video
+
+To review which version of NODE i have installed in my terminal:
+``` 
+node -v 
+```
+
+To create a new react app:
+``` 
+npx create-react-app 
+```
+
 # Week challenges (Thursday) 💻
 3. [ ] React kata
