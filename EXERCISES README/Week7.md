@@ -54,11 +54,22 @@ Just a screenshot from the things I found the most interesting while doing this 
 ![image](https://user-images.githubusercontent.com/98929413/188008269-c02967a0-b884-48d7-a270-e73146b65880.png)
 
 # Week challenges (Wednesday) 💻
-4. [ ] Build Tower exercise, using Typescript
+4. [x] Build Tower exercise, using Typescript
 ```Typescript
 export const towerBuilder = (nFloors: number): string[] => {
-  // build here ["  *  ", "  ***  ", "  *****  "]
-  
+  // build here ["  *  ", "  ***  ", "  *****  "] => ["  *  ", "  ***  ", "  *****  ", "  *******  ", "  *********  "]
+  //We know that if nFloors === 1 returns ['*'];
+  if(nFloors === 1) return ['*'];
+  //1. Put a var to return the new array
+  let result: string[] = [];
+  //2. We expand the number array with iteration
+  for (let i = 1; i <= nFloors; i++) {
+    //3. We push for the new array with literal templates
+    //considering the fact that the formula is to multiply by two and substract one (2n-1) ==> (n*2) - 1
+    result.push(`${' '.repeat(nFloors - i)}${'*'.repeat(2 * i - 1)}${' '.repeat(nFloors - i)}`);
+  }
+  //4. We return the result
+  return result;
 }
 ```
 6. [x] Meeting exercise, using Typescript
