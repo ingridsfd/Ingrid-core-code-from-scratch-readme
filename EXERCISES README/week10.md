@@ -21,5 +21,10 @@ To create a new react app:
 npx create-react-app 
 ```
 
+To start creating
+``` 
+npm start
+```
+
 # Week challenges (Thursday) 💻
 3. [ ] React kata
