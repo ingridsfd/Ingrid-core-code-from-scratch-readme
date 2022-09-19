@@ -26,5 +26,10 @@ To start creating
 npm start
 ```
 
+UUID Package install:
+```
+install UUID
+```
+
 # Week challenges (Thursday) 💻
 3. [ ] React kata
