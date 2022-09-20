@@ -37,18 +37,18 @@ install UUID
 import React from 'react';
 
 export const EggList = (props) => {
-  //1. Set a list of properties for eggs in an array
-  const eggs = [
-    "Lindt",
-    "WhiteChoco",
-    "BlackChoco",
-  ] 
+  //1. Set a list with properties called eggs in an array[]
+  const eggs = ["Lindt", "BlackChoco", "WhiteChoco"]
+  //2. Loop through the prop.eggs to output an unorder list of the Easter eggs
+  const propEggs = props.eggs;
+  return propEggs.reverse()
+  
 };
-//2. Loop through props.eggs to output an unorder list of Easter eggs
 
 export const EasterEgg = (props) => {
-  //3. Render the names in a <li></li> tag
-  //4. Each EasterEgg will have a key prop with getElementById.Use the index of the array for now
-  const name = 
+  //3. List item with property name, to render the name<li></html> tag
+  const listedEastEgg = props.EasterEgg
+  //4. Each EasterEgg needs a key prop with an unique getElementById
+  return (<li key={listedEastEgg}>props.listedEastEgg</li>)
 };
 ```
