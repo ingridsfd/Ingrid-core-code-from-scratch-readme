@@ -1,5 +1,5 @@
 # Week challenges (Monday) 💻
-1. [ ] TicTacToe exercise, using Typescript
+1. [x] [TicTacToe exercise, using Typescript](https://github.com/ingridsfd/TicTacToeWeek10CoreCodeExer)
 # Week challenges (Tuesday) 💻
 2. [x] Check the All You Need To Know About TypeScript video
 3. [x] Read this Answer, for the following question: "What is TypeScript and why would I use it in place of JavaScript?"
