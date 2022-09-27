@@ -1,7 +1,7 @@
 # Week Challenges (Monday) 💻
 Time to catch up ⏱️ or play with the React project
 # Week Challenges (Tuesday) 🐣
-### Node.JS Core Understanding Learning Exercise 🧠
+## Node.JS Core Understanding Learning Exercise 🧠
 
 **1. What is Node.JS?** Node is a runtime environment that allows JavaScript to track where functions are called considering that the stack only excecutes one functiona at a time.
 
@@ -16,23 +16,23 @@ Time to catch up ⏱️ or play with the React project
 
 **6. What is NVM and Why is it useful for Node.JS developers?**
 
-Node.JS Module System Core Understanding Learning Exercise 🧠
+## Node.JS Module System Core Understanding Learning Exercise 🧠
 
-Node.JS Module System Practice 💻
+## Node.JS Module System Practice 💻
 
-Client-Server Model Learning Exercise 🧠
+## Client-Server Model Learning Exercise 🧠
 
 # Week Challenges (Wednesday) 🐤
 
-APIs Core Understanding Learning Exercise 🧠
+## APIs Core Understanding Learning Exercise 🧠
 
-From JSON to REST Learning Exercise 🧠
+## From JSON to REST Learning Exercise 🧠
 
-REST API Clients Learning Exercise 🧠
+## REST API Clients Learning Exercise 🧠
 
-Express.JS Core Understanding Learning Exercise 🧠
+##Express.JS Core Understanding Learning Exercise 🧠
 
 # Week challenges (Thursday) 💻
-Forrest Gump Ping-Pong API 🏓
+##Forrest Gump Ping-Pong API 🏓
 
-Delayed Response API ⏳
+##Delayed Response API ⏳
