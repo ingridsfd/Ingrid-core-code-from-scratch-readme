@@ -1,8 +1,8 @@
-Week challenges (Monday) 💻
+# Week challenges (Monday) 💻
 Work on your project
-Week challenges (Tuesday) 💻
+# Week challenges (Tuesday) 💻
 Work on your project
-Week challenges (Wednesday) 💻
+# Week challenges (Wednesday) 💻
 Work on your project
-Week challenges (Thursday) 💻
+# Week challenges (Thursday) 💻
 Work on your project
