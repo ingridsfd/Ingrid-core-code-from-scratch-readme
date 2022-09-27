@@ -32,23 +32,25 @@ install UUID
 ```
 
 # Week challenges (Thursday) 💻
-3. [ ] React kata
+3. [x] React kata
 ```Typescript
 import React from 'react';
 
-export const EggList = (props) => {
-  //1. Set a list with properties called eggs in an array[]
-  const eggs = ["Lindt", "BlackChoco", "WhiteChoco"]
-  //2. Loop through the prop.eggs to output an unorder list of the Easter eggs
-  const propEggs = props.eggs;
-  return propEggs.reverse()
-  
+export const EggList = ({eggs}) => {
+  return (
+    <ul>
+    {eggs.map((egg, index) => {
+    <EasterEgg name={egg} key={index}/>
+  })}
+    </ul>
+  )
 };
 
-export const EasterEgg = (props) => {
-  //3. List item with property name, to render the name<li></html> tag
-  const listedEastEgg = props.EasterEgg
-  //4. Each EasterEgg needs a key prop with an unique getElementById
-  return (<li key={listedEastEgg}>props.listedEastEgg</li>)
+export const EasterEgg = ({name}) => {
+  return <li>{name}</li>
 };
+
+//componente: funcion de javascript, son unidades en React
+//funcion: codigo de bloques que se puede llamar repetidas veces, pasa parametros y retorna algo
+//un componente siempre retorna jsx
 ```
