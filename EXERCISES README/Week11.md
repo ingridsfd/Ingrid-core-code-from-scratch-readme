@@ -33,6 +33,6 @@ Time to catch up ⏱️ or play with the React project
 ##Express.JS Core Understanding Learning Exercise 🧠
 
 # Week challenges (Thursday) 💻
-##Forrest Gump Ping-Pong API 🏓
+## Forrest Gump Ping-Pong API 🏓
 
-##Delayed Response API ⏳
+## Delayed Response API ⏳
