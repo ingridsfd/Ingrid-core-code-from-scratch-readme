@@ -19,6 +19,6 @@ I am Ingrid, a web software developer. I come from a background in humanities an
 - Week 9 : [Typescript & Pause Day](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/week9.md)
 - Week 10 : [End Of Month & React](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/week10.md)
 - Week 11 : [Node](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week11.md)
-- Week 12 : [Node / Database]
-- Week 13 : Pause Day & S.O.L.I.D
-- Week 14 : End Of Month
+- Week 12 : [Node / Database](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week12.md)
+- Week 13 : [Pause Day & S.O.L.I.D](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week13.md)
+- Week 14 : [End Of Month](https://github.com/ingridsfd/IngridsCoreCodefromScratch/blob/main/EXERCISES%20README/Week14.md)
