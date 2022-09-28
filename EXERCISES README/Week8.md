@@ -1,21 +1,28 @@
 # Week challenges (Monday) 💻
+
 1. [x] Watch Object-Oriented Programming - Resume video
-* Procedural programming: program divided in a set of functions.
-* Too much interdependence functions is not good in programming. Object Oriented Programming solves this.
-* Units are objects. Variables, properties. Functions are methods.
-* Encapsulation: Is where everything is grouped.The variables and functions. Reduce complexity and re-use code.
-* Objects with no parameters, are better.
-* Abstraction: Hide the complex. Show the essentials.
-* Inheritance: Avoid redundant code.
-* Polymorphism: Refactor "ugly" switch/case statements.
+
+- Procedural programming: program divided in a set of functions.
+- Too much interdependence functions is not good in programming. Object Oriented Programming solves this.
+- Units are objects. Variables, properties. Functions are methods.
+- Encapsulation: Is where everything is grouped.The variables and functions. Reduce complexity and re-use code.
+- Objects with no parameters, are better.
+- Abstraction: Hide the complex. Show the essentials.
+- Inheritance: Avoid redundant code.
+- Polymorphism: Refactor "ugly" switch/case statements.
+- Instance: construction of the class in the memory.
+- Object: repo of data already built.
+
 # Week challenges (Tuesday) 💻
+
 2. [x] Develop typed functions by using TypeScript guided exercise, using Typescript
 
 This module consisted of understanding and practicing
-* Default values
-* Expressions
-* Optional values
-* Required values
+
+- Default values
+- Expressions
+- Optional values
+- Required values
 
 4. [x] Read Abstract Classes
 
@@ -31,26 +38,33 @@ Interfaces standarize behavior... so we do not break existing implementations.
 Question to considerate: What happens if two parents have the same behavior but we want to extend or implement, which will it have?
 
 ---
-* la clase abstracta puede ser extendida solo una vez y es padre-hija, siempre
-* compartir comportamientos, para generalizar comportamientos
-* Extender la funcionalidad general que está en la clase
-* extender comportamientos generales
-* ya no se pueden tener padres abstractos
-* por esto se prefieren las interfaces
-* solo se puede tener 1 solo padre, sea abstracto o no
----
-* las interfaces se pueden implementar muchas
 
-* definir comportamientos UNICAMENTE no da extents
+- la clase abstracta puede ser extendida solo una vez y es padre-hija, siempre
+- compartir comportamientos, para generalizar comportamientos
+- Extender la funcionalidad general que está en la clase
+- extender comportamientos generales
+- ya no se pueden tener padres abstractos
+- por esto se prefieren las interfaces
+- solo se puede tener 1 solo padre, sea abstracto o no
 
-* Patrón a seguir
 ---
-* clase generica: para definir clases de tipos. revisar que los tipos de variables corran bien durante el programa
-* podemos enviar tipos a la clase
-* Instance: When data is assigned and called along the object.
+
+- las interfaces se pueden implementar muchas
+
+- definir comportamientos UNICAMENTE no da extents
+
+- Patrón a seguir
+
+---
+
+- clase generica: para definir clases de tipos. revisar que los tipos de variables corran bien durante el programa
+- podemos enviar tipos a la clase
+- Instance: When data is assigned and called along the object.
 
 # Week challenges (Wednesday) 💻
+
 5. [x] Make the Deadfish Swim exercise, using Typescript (switch-case)
+
 ```Typescript
 /** return the output array and ignore all non-op characters */
 export function parse(data: string): number[] {
@@ -77,17 +91,19 @@ export function parse(data: string): number[] {
   // de s al cuadrado
   // de regresa los valores al array y los demuestra
   // 4. retorna resultado
-  return result; 
+  return result;
 }
 ```
+
 7. [x] Duplicate Encoder exercise, using Typescript
+
 ```Typescript
 export function duplicateEncode(word: string){ // Success
   // lower case
   word = word.toLowerCase(); // 'success'
   // (string) | (string[]) ***
   const characters: string[] = word.split(''); // ['s','u','c','c','e','s','s']
-  // iterar 
+  // iterar
   const encoded: string[] = characters.map((character) => {
     character = character.replace(/\(/g, '\\(');
     character = character.replace(/\)/g, '\\)');
@@ -95,14 +111,15 @@ export function duplicateEncode(word: string){ // Success
     const found = word.match(regex) || [];
     if(found.length === 1) {
       return '(';
-    } 
-    return ')';  
+    }
+    return ')';
   }); // [')','(',')',')','(',')',')']
-  return encoded.join('');  
+  return encoded.join('');
 }
 ```
 
 9. [x] Find The Odd Int exercise, using Typescript
+
 ```Typescript
 export const findOdd = (xs: number[]): number => {
   // happy coding!
@@ -115,9 +132,10 @@ export const findOdd = (xs: number[]): number => {
 ```
 
 11. [x] Which Are In? exercise, using Typescript
+
 ```Typescript
 export function inArray(a1: string[], a2: string[]): string[] {
-  
+
   // 0. Quitar repetidos de a1
   // 1. Recorrer a1
   // 1.1 Mientras recorro a1, filtro los elementos de a1
@@ -125,12 +143,12 @@ export function inArray(a1: string[], a2: string[]): string[] {
   // 1.1.1.1 Se quedan los elementos que son un substring de un string en a2
   // 1.1.2 sort sobre arreglo filtrado
   // 1.1.3 return de arreglo filtrado
-  
+
   return [... new Set(a1)].filter((subStr:string) => {
     let result = a2.find((str:string) => str.includes(subStr));
     return result !== undefined;
   }).sort();
-  
+
 }
 
 var a1 = ["live", "strong", "lyal", "lysh", "arp"]
@@ -142,10 +160,12 @@ console.log(inArray(a1, a2));
 ```
 
 # Week challenges (Thursday) 💻
+
 9. [x] Define generics in TypeScript guided exercise, using Typescript
 10. [x] Generics exercise, using Typescript
 
 Node.ts
+
 ```Typescript
 export default class Node<T> {
   public data: T;
@@ -156,7 +176,9 @@ export default class Node<T> {
   }
 }
 ```
+
 LinkedLists.ts
+
 ```Typescript
 import Node from './Node';
 export default class LinkedList<T> {
@@ -177,7 +199,7 @@ export default class LinkedList<T> {
       this.head = node;
       this.length++;
     }
-    
+
   }
 
   public add(data: T) {
@@ -228,6 +250,7 @@ export default class LinkedList<T> {
   }
 }
 ```
+
 Program run/start:
 ![image](https://user-images.githubusercontent.com/98929413/190287546-091d8f73-1003-465e-8015-cd3b45bc1191.png)
 
