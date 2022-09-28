@@ -9,10 +9,10 @@ Time to catch up ⏱️ or play with the React project
 **1. What is Node.JS?** Node is a runtime environment (entorno de ejecución) that allows JavaScript to track where functions are called considering that the stack only excecutes one function at a time. Version to use JavaScript in a server. Its creator is Ryan Dahl. It's based on V8 from Chrome.
 
 **2. What problem does Node.JS solve?**
-[Looking for personal opinions](https://www.quora.com/What-is-Node-js-really-trying-to-solve-Is-there-a-technology-mature-enough-to-choose-as-an-alternative-for-Node-js), we encounter Node.JS mainly solves allowing to use a collection of JS libraries. Allows to use ECMAScript. There are no vendor controlling the server-side options.
+[Looking for personal opinions](https://www.quora.com/What-is-Node-js-really-trying-to-solve-Is-there-a-technology-mature-enough-to-choose-as-an-alternative-for-Node-js), we encounter Node.JS mainly solves allowing to use a collection of JS libraries. Allows to use ECMAScript. There are no vendor controlling the server-side options. Also, allows order and organization un functions running.
 
 **3. What is the V8 Javascript Engine?**
-It's another engine that runs JavaScript code. Used mostly in browsers. V8 can run the JavaScrip code both outside and inside a browser. This makes possible the scripting coming from the server. It helps translate the machine language. Runs to compile code.
+It's another engine that runs JavaScript code. Used mostly in browsers. V8 can run the JavaScrip code both outside and inside a browser. This makes possible the scripting coming from the server. It helps translate the machine language. Runs to compile code. [source](https://www.cloudflare.com/es-es/learning/serverless/glossary/what-is-chrome-v8/)
 
 **4. Is Node.JS really necessary in the Development ecosystem?**
 Yes, because before using Stack or executing in the Browser architecture, it was too complicated to run the language. Now, the place where all the functions are run, is moved to a Stack beyond the browser. This allows to run only the operational architecture of the computer language without Browser dynamics interfering. This would also reduce the cost of making it.
@@ -20,24 +20,36 @@ Yes, because before using Stack or executing in the Browser architecture, it was
 Source: [33 concepts every developer must know](https://github.com/leonardomso/33-js-concepts)
 
 **5. What is the difference between Node.JS and any other browser?**
+NodeJs can directly run from the file system and have unrestricted access to the network unlike browsers, where these just provide sandbox (isolated testing). Building apps that run in the browser is a completely different thing than building a Node.js application.
+[source](https://nodejs.dev/en/learn/differences-between-nodejs-and-the-browser/)
 
 **6. What is NVM and Why is it useful for Node.JS developers?**
+NVM stands for Node Version Managery and it's very useful for NodeJs developers because it allows developers to install different versions of node via the command line. Also, it's the largest ecosystem of open source libraries in the world and it's lightweight.
+
+According to [Microsoft](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows), Node has its own Package Manager and alternative versions.
+
+It manages the dependencies of the project. It will install the packaged the project needs.
+
+**7. What is sandboxing?** A sandbox is an isolated testing environment that enables users to run programs or open files without affecting the application, system or platform on which they run.
 
 ## Node.JS Module System Core Understanding Learning Exercise 🧠
 
-**1. What is a Javascript Module?**
+**1. What is a Javascript Module?** A node Module is a reusable block of code. A system of modules are blocks of code that allows communication different parts of the code.
+[source](https://www.freecodecamp.org/news/what-exactly-is-node-js-ae36e97449f5/)
 
-**2. Why are Javascript Modules necessary?**
+**2. Why are Javascript Modules necessary?** Provides functionality to interact with the file system. It contains sample codes based on client-server classes.You create modules to better organize and structure your codebase. You can use them to break down large programs into smaller, more manageable, and more independent chunks of code which carry out a single or a couple of related tasks
+[source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
-**3. What module standards are available in Node.JS?**
+**3. What module standards are available in Node.JS?** [CommonJs](https://nodejs.org/api/modules.html) y [ECMAScript](https://nodejs.org/api/esm.html).
 
-**4. What are the differences between ESModules and CommonJS modules?**
+**4. What are the differences between ESModules and CommonJS modules?** CommonJs is the default used in Node Js while ESModules are the ECMAScript Modules, the official system of JavaScript to modules management. Para CommonJs se usa el "require()" y en ECMAScript es import {objeto} from "./folder";
 
 **5. Which types of modules exist in Node.JS?**
+[these](https://nodejs.org/api/modules.html) Mainly, Core Modules (they are already installed when you download Node Js), Local Modules(the files we create for our project) and Third Party Modules (the NPM).
 
 **6. What's a JS runtime?** A JavaScript runtime is a set of tools that allows us to execute javascript code.
 
-## Node.JS Module System Practice 💻
+## Node.JS Module System Practice 💻 (pending)
 
 Time to put into practice what you learned about Node.JS modules 😁.
 
@@ -53,21 +65,32 @@ Import the functions implemented in operations.js and use them in any way in mai
 
 ## Client-Server Model Learning Exercise 🧠
 
-**1. What is a Server?**
+**1. What is a Server?** The Backend. Where the data from the client is stored.
 
-**2. What is a Client?**
+**2. What is a Client?** The Frontend.Where the User inputs data and where the data from the server returns.
 
-**3. Is a server just another physical computer?**
+**3. Is a server just another physical computer?** Not necessarily, is just another machine language. Be a Web server or what will handle the data input by the user. It can be interpretet as a Stack both visually and verbally.
 
 **4. Why do we refer to a certain class of applications as Servers?**
+Because that's where the requests of the users are stored. There has to be a translator like a server-side programming language that will allow send the information back and forth.
 
 **5. What is the difference?**
 
-**6. Is there any similarity between human communication and the client-server model?**
+1.Web Server:It's the HTTP which means Hypertext Transfer Protocol this is the most basic communication between web browsers and web servers.
 
-**7. Is the client-server model applicable only to the Web?**
+2.Application Servers: A software placed on server-side. Helps deliver Backendlogic of any application. Processes power and memory unit for running time. Here lays the protection of data and end-user traffic and network.[source](https://www.ibm.com/docs/en/was/9.0.5?topic=administering-introduction-application-servers)
 
-**8. Can you mention any other example of this model outside the Web?**
+3.Database: collection of data.
+
+![image](https://digitalthinkerhelp.com/ezoimgfmt/i.ibb.co/TR0zkrs/applicatio-server.png?ezimgfmt=rs:712x357/rscb1/ngcb1/notWebP)
+
+**6. Is there any similarity between human communication and the client-server model?** Yes, for example when we go to a restaurant or when we are asking for Tech support in customer service. We still exchange requests back and forth.
+
+**7. Is the client-server model applicable only to the Web?** Yes.
+
+**8. Can you mention any other example of this model outside the Web?** [Peer-to-peer](https://es.wikipedia.org/wiki/Peer-to-peer) and [blockchain](https://www.youtube.com/watch?v=yubzJw0uiE4). Where there are no web servers only networks.
+
+[about server-client](https://www.freecodecamp.org/news/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application-735b4b6d76e3/)
 
 # Week Challenges (Wednesday) 🐤
 
@@ -90,6 +113,10 @@ Import the functions implemented in operations.js and use them in any way in mai
 ## From JSON to REST Learning Exercise 🧠
 
 **1. What is HTTP?**
+
+[source](https://developer.mozilla.org/en-US/docs/Web/HTTP)
+
+[http&rest](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a#.vbrmrnihn)
 
 **2. What is JSON?**
 
