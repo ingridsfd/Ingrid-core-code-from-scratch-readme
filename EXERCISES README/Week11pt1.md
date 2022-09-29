@@ -65,9 +65,13 @@ Import the functions implemented in operations.js and use them in any way in mai
 
 ## Client-Server Model Learning Exercise 🧠
 
-**1. What is a Server?** The Backend. Where the data from the client is stored.
+**1. What is a Server?** The Backend. Where the data from the client is stored. Where the public website lives.
 
-**2. What is a Client?** The Frontend.Where the User inputs data and where the data from the server returns.
+Hardware server: the physical computer that serves up web pages.
+
+Software server: The program that runs to serve up the web pages(Apache).
+
+**2. What is a Client?** The Frontend.Where the User inputs data and where the data from the server returns. Our devices or a device that runs some kind of web browser.
 
 **3. Is a server just another physical computer?** Not necessarily, is just another machine language. Be a Web server or what will handle the data input by the user. It can be interpretet as a Stack both visually and verbally.
 
@@ -77,6 +81,8 @@ Because that's where the requests of the users are stored. There has to be a tra
 **5. What is the difference?**
 
 1.Web Server:It's the HTTP which means Hypertext Transfer Protocol this is the most basic communication between web browsers and web servers.
+
+1.1.Web Browser Software: Software that runs on the client that displays web pages.
 
 2.Application Servers: A software placed on server-side. Helps deliver Backendlogic of any application. Processes power and memory unit for running time. Here lays the protection of data and end-user traffic and network.[source](https://www.ibm.com/docs/en/was/9.0.5?topic=administering-introduction-application-servers)
 
@@ -92,115 +98,14 @@ Because that's where the requests of the users are stored. There has to be a tra
 
 [about server-client](https://www.freecodecamp.org/news/how-the-web-works-part-ii-client-server-model-the-structure-of-a-web-application-735b4b6d76e3/)
 
-# Week Challenges (Wednesday) 🐤
+**Some other terminology:**
 
-## APIs Core Understanding Learning Exercise 🧠
+We match the domain name with the IP Address to identify them better.
 
-**1. What is an API?**
+Internet Service Providor: AT&T, TELMEX, etc.
 
-**2. What is a Protocol?**
+The router connects the IP Address to the individual devices.
 
-**3. Is the term API only applicable to the communication of programs over the Internet?**
+The cloud: Another name for the Internet.
 
-**4. Why is structured communication between two programs important?**
-
-**6. Do we humans use APIs when communicating without technology?**
-
-**7. Is an API just another program or a standard?**
-
-**8. Do you know any API? Can you list at least 5 examples of APIs?**
-
-## From JSON to REST Learning Exercise 🧠
-
-**1. What is HTTP?**
-
-[source](https://developer.mozilla.org/en-US/docs/Web/HTTP)
-
-[http&rest](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a#.vbrmrnihn)
-
-**2. What is JSON?**
-
-**3. Is JSON the same as a plain Javascript object?**
-
-**4. What is REST?**
-
-**5. Is REST a programming language, framework, technology, or architecture pattern?**
-
-**6. What is a Resource in REST?**
-
-**7. What is a resource identifier?**
-
-**8. What is an HTTP method?**
-
-**9. What HTTP methods does REST use within its architecture rules?**
-
-**10. Why do we use HTTP methods in REST and how do they relate to resources?**
-
-**11. Is REST the same as HTTP?**
-
-## REST API Clients Learning Exercise 🧠
-
-**1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide**
-
-**2. Watch (this)[https://www.youtube.com/watch?v=VywxIQ2ZXw4] course about how to use Postman to interact with APIs**
-
-**3. Answer the questions:**
-
-- Postman only works with REST APIs?
-- Is there an alternative to Postman?
-
-## Express.JS Core Understanding Learning Exercise 🧠
-
-Read about the Chain of Responsibility design pattern [here](https://refactoring.guru/es/design-patterns/chain-of-responsibility).
-
-**1. Express JS Hello World:**
-
-- Create a new Node.JS project using NPM.
-- Install Express.JS as an external dependency in your project following [this](https://expressjs.com/es/starter/installing.html) guide.
-- Create an Express.JS Hello World application following [this](https://expressjs.com/es/starter/hello-world.html) guide.
-
-# Week challenges (Thursday) 💻
-
-## Forrest Gump Ping-Pong API 🏓
-
-Use Express JS to build the API.
-
-Use any port you want for the API.
-
-The API has to be able to respond to the "ping" request with the "pong" message.
-
-Use /api/buba-gump as the root route for the API.
-
-Make sure your API responds to the request using JSON e.g.:
-{
-"message": "pong"
-}
-Use Postman to test your API.
-
-Optional but desirable, make your API capable of responding to any player move:
-
-If the user makes the "ping" move, your API should respond with "pong".
-
-If the user makes the "pong" move, your API should respond with "ping".
-
-Do you feel stuck?
-
-## Delayed Response API ⏳
-
-Create a simple REST API that receives a request containing a number that represents a delay in milliseconds. The API should respond to the request after the delay specified in the request has expired.
-
-API Requeriments:
-Use Express JS to build the API.
-
-Use any port you want for the API.
-
-The API should use route parameters to get the desired delay:
-
-- Request example
-- Here 3000 indicates a delay of 3000 milliseconds
-  http://localhost:3000/api/delay/3000
-  Your API should have just one request handler.
-
-You can send any response you want after the delay has expired.
-
-If no delay is provided in the request, the API should use 1000 as default.
+HTTP/HTTPS: Hypertext Transfer Protocol - foundation of data communication for the web. With the "S" at the end it means "secure", aids in security during data transmission (incrypts).
