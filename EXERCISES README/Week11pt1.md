@@ -49,7 +49,7 @@ It manages the dependencies of the project. It will install the packaged the pro
 
 **6. What's a JS runtime?** A JavaScript runtime is a set of tools that allows us to execute javascript code.
 
-## Node.JS Module System Practice 💻 (pending)
+## Node.JS Module System Practice 💻 (In progress)
 
 Time to put into practice what you learned about Node.JS modules 😁.
 
