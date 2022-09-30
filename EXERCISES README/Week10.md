@@ -55,9 +55,9 @@ import React from 'react';
 export const EggList = ({eggs}) => {
   return (
     <ul>
-    {eggs.map((egg, index) => {
-    <EasterEgg name={egg} key={index}/>
-  })}
+      {eggs.map((egg, index) => {
+      return <EasterEgg name={egg} key={index}/>
+    })}
     </ul>
   )
 };
