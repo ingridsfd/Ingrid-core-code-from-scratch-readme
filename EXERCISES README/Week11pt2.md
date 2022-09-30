@@ -99,7 +99,7 @@ The methods allows us to start interacting with the data inputs from the client.
 
 **11. Is REST the same as HTTP?** No. The HTTP is exclusive communication between Web Browser and Web Server. From there, the REST is what happens from the Web server to the server Application (remote).
 
-## REST API Clients Learning Exercise 🧠
+## REST API Clients Learning Exercise 🧠 (in progress)
 
 **1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide**
 
@@ -110,7 +110,7 @@ The methods allows us to start interacting with the data inputs from the client.
 - Postman only works with REST APIs?
 - Is there an alternative to Postman?
 
-## Express.JS Core Understanding Learning Exercise 🧠
+## Express.JS Core Understanding Learning Exercise 🧠 (in progress)
 
 Read about the Chain of Responsibility design pattern [here](https://refactoring.guru/es/design-patterns/chain-of-responsibility).
 
