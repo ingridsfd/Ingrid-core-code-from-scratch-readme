@@ -49,19 +49,40 @@ It manages the dependencies of the project. It will install the packaged the pro
 
 **6. What's a JS runtime?** A JavaScript runtime is a set of tools that allows us to execute javascript code.
 
-## Node.JS Module System Practice 💻 (In progress)
+## Node.JS Module System Practice 💻 
 
 Time to put into practice what you learned about Node.JS modules 😁.
 
-Create a new Node.JS project, name it: <your-nickname>/modules
+Create a new Node.JS project, name it: your-nickname/modules
+
+Used:
+```
+  npm init -y
+```
+  
+![image](https://user-images.githubusercontent.com/98929413/193666963-80016ee4-02b1-4a54-a60d-1f840cd07bc7.png)
+
 
 Create a new module, name it: operations.js
 
 Inside operations.js implement two functions, one for the sum operation and one for the subtract operation.
 
+![image](https://user-images.githubusercontent.com/98929413/193675877-1994605b-c900-40f6-8652-23861c8fbc2a.png)
+
+
 Create a new module, name it: main.js
 
+![image](https://user-images.githubusercontent.com/98929413/193676035-fc1b25db-0631-433c-902e-f29f3726b41d.png)
+
 Import the functions implemented in operations.js and use them in any way in main.js.
+
+![image](https://user-images.githubusercontent.com/98929413/193676400-e6c7d4e4-88ab-4d25-ae6e-4eab394c094c.png)
+
+We can observe how my code editor insists on repairing the import sytax for CommonJs.
+
+![image](https://user-images.githubusercontent.com/98929413/193676556-9187652a-e3e2-478d-8537-a56c7e19b699.png)
+
+We can also observe how in this other export, it insists to convert to module "ES" for modern practices.
 
 ## Client-Server Model Learning Exercise 🧠
 
