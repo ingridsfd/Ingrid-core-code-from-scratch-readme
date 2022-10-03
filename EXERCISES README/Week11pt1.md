@@ -67,18 +67,13 @@ Create a new module, name it: operations.js
 
 Inside operations.js implement two functions, one for the sum operation and one for the subtract operation.
 
-![image](https://user-images.githubusercontent.com/98929413/193675877-1994605b-c900-40f6-8652-23861c8fbc2a.png)
-
-
-Create a new module, name it: main.js
-
-![image](https://user-images.githubusercontent.com/98929413/193676035-fc1b25db-0631-433c-902e-f29f3726b41d.png)
+![image](https://user-images.githubusercontent.com/98929413/193688367-bb8d1c1c-9fbc-436a-aa26-a186122960ed.png)
 
 Import the functions implemented in operations.js and use them in any way in main.js.
 
-![image](https://user-images.githubusercontent.com/98929413/193676400-e6c7d4e4-88ab-4d25-ae6e-4eab394c094c.png)
+![image](https://user-images.githubusercontent.com/98929413/193690145-94094c8c-a96b-4623-ac2c-674ecb36a571.png)
 
-We can observe how my code editor insists on repairing the import sytax for CommonJs.
+We can observe how my code editor insists on repairing the import syntax for CommonJs.
 
 ![image](https://user-images.githubusercontent.com/98929413/193676556-9187652a-e3e2-478d-8537-a56c7e19b699.png)
 
@@ -87,6 +82,11 @@ We can also observe how in this other export, it insists to convert to module "E
 ![image](https://user-images.githubusercontent.com/98929413/193676981-23738d99-4302-4cec-988b-28cb17faddb8.png)
 
 This is the final installation package characteristics.
+
+Finally, here's the run of the functions:
+
+![image](https://user-images.githubusercontent.com/98929413/193690461-b120682b-c20d-4134-9881-1dbc4409605c.png)
+
 
 ## Client-Server Model Learning Exercise 🧠
 
