@@ -84,6 +84,10 @@ We can observe how my code editor insists on repairing the import sytax for Comm
 
 We can also observe how in this other export, it insists to convert to module "ES" for modern practices.
 
+![image](https://user-images.githubusercontent.com/98929413/193676981-23738d99-4302-4cec-988b-28cb17faddb8.png)
+
+This is the final installation package characteristics.
+
 ## Client-Server Model Learning Exercise 🧠
 
 **1. What is a Server?** The Backend. Where the data from the client is stored. Where the public website lives.
