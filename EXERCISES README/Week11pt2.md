@@ -103,12 +103,12 @@ The methods allows us to start interacting with the data inputs from the client.
 
 **1. Install Postman in your computer, follow [this](https://learning.postman.com/docs/getting-started/installation-and-updates/) guide**
 
-**2. Watch (this)[https://www.youtube.com/watch?v=VywxIQ2ZXw4] course about how to use Postman to interact with APIs**
+**2. Watch [this](https://www.youtube.com/watch?v=VywxIQ2ZXw4) course about how to use Postman to interact with APIs**
 
 **3. Answer the questions:**
 
 - Postman only works with REST APIs?
-- Is there an alternative to Postman?
+- Is there an alternative to Postman? Yes, some like [these](https://testfully.io/blog/top-5-postman-alternatives/). Every client has different needs for testing and documentation. So, definitely, there exist alternatives to Postman. 
 
 ## Express.JS Core Understanding Learning Exercise 🧠 (in progress)
 
