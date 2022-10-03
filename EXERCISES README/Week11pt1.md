@@ -75,13 +75,15 @@ Import the functions implemented in operations.js and use them in any way in mai
 
 We can observe how my code editor insists on repairing the import syntax for CommonJs.
 
-![image](https://user-images.githubusercontent.com/98929413/193676556-9187652a-e3e2-478d-8537-a56c7e19b699.png)
+![image](https://user-images.githubusercontent.com/98929413/193691057-e8c327ea-7880-4802-a9cc-950d7e7c9176.png)
 
 We can also observe how in this other export, it insists to convert to module "ES" for modern practices.
 
-![image](https://user-images.githubusercontent.com/98929413/193676981-23738d99-4302-4cec-988b-28cb17faddb8.png)
+![image](https://user-images.githubusercontent.com/98929413/193676556-9187652a-e3e2-478d-8537-a56c7e19b699.png)
 
 This is the final installation package characteristics.
+
+![image](https://user-images.githubusercontent.com/98929413/193676981-23738d99-4302-4cec-988b-28cb17faddb8.png)
 
 Finally, here's the run of the functions:
 
