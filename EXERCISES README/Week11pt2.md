@@ -5,7 +5,7 @@
 **1. What is an API?**
 [source](https://www.freecodecamp.org/news/what-is-an-api-in-english-please-b880a3214a82/#:~:text=Technically%2C%20API%20stands%20for%20Application,customers%2C%20or%20for%20internal%20use.)
 
-It stands for Aplication Programming Interface.
+It stands for Aplication Programming Interface. It's an interface to a server that has some data or does some actions.
 
 Example of the API server: When you type www.facebook.com into your browser, a request goes out to Facebook’s remote server. Once your browser receives the response, it interprets the code and displays the page. Overall, it's a block of [code](https://www.trio.dev/blog/api-examples).
 
