@@ -107,7 +107,7 @@ The methods allows us to start interacting with the data inputs from the client.
 
 **3. Answer the questions:**
 
-- Postman only works with REST APIs?
+- Postman only works with REST APIs? [Not necessarily](https://blog.postman.com/rest-api-examples/). Rest is only one of the many ways to project the requests and data in a visual way.
 - Is there an alternative to Postman? Yes, some like [these](https://testfully.io/blog/top-5-postman-alternatives/). Postman is good just for interaction between APIs. Not between user and API. It's better to have another API and not Postman for security and performance testing.
 
 ## Express.JS Core Understanding Learning Exercise 🧠 (in progress)
