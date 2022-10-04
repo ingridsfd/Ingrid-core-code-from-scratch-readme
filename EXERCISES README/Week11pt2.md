@@ -120,4 +120,12 @@ Read about the Chain of Responsibility design pattern [here](https://refactoring
 
 - Create a new Node.JS project using NPM.
 - Install Express.JS as an external dependency in your project following [this](https://expressjs.com/es/starter/installing.html) guide.
+
+![image](https://user-images.githubusercontent.com/98929413/193936705-92a5a5f1-08fd-4a21-805c-73e4e5b5278a.png)
+
 - Create an Express.JS Hello World application following [this](https://expressjs.com/es/starter/hello-world.html) guide.
+
+![image](https://user-images.githubusercontent.com/98929413/193936989-3d69f02e-fb98-400b-8d63-b2551d656417.png)
+
+
+![image](https://user-images.githubusercontent.com/98929413/193936847-a1078e23-7b9f-4758-9172-40c6786aed3a.png)
