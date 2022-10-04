@@ -112,7 +112,7 @@ The methods allows us to start interacting with the data inputs from the client.
 
 ![image](https://user-images.githubusercontent.com/98929413/193908295-77913871-2e94-41ca-b98b-0c42aba69aeb.png)
 
-## Express.JS Core Understanding Learning Exercise 🧠 (in progress)
+## Express.JS Core Understanding Learning Exercise 🧠 
 
 Read about the Chain of Responsibility design pattern [here](https://refactoring.guru/es/design-patterns/chain-of-responsibility).
 
