@@ -57,7 +57,7 @@ It's the HTTP which means Hypertext Transfer Protocol this is the most basic com
 
 [http&rest](https://www.freecodecamp.org/news/how-the-web-works-part-iii-http-rest-e61bc50fa0a#.vbrmrnihn)
 
-**2. What is JSON?** It stands for JavaScript Object Notation. A lightweight format for storing and transporting data. Clearer communication between humans and machine language through parse (análisis). A standard to create information.
+**2. What is JSON?** It stands for JavaScript Object Notation. A lightweight format for storing and transporting data. Clearer communication between humans and machine language through parse (análisis). A standard to create information. It's a key value of sending data.
 
 source from [freeCodeCamp](https://www.freecodecamp.org/news/what-is-json-a-json-file-example/#:~:text=What%20is%20JSON%3F,String)
 
