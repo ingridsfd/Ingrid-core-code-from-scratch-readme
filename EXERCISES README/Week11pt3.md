@@ -24,6 +24,25 @@ If the user makes the "pong" move, your API should respond with "ping".
 
 Do you feel stuck?
 
+These are the results:
+
+API Code construction:
+
+![image](https://user-images.githubusercontent.com/98929413/193965823-59955e6a-5493-4808-a498-4ca5b98168e6.png)
+
+Terminal confirming API correct installation:
+
+![image](https://user-images.githubusercontent.com/98929413/193966151-8d50beb7-9325-4cf6-896c-a07a872c7a70.png)
+
+For ping:
+
+![image](https://user-images.githubusercontent.com/98929413/193965641-cc3ca3b2-a555-480d-9d91-edc0d6e10989.png)
+
+For pong:
+
+![image](https://user-images.githubusercontent.com/98929413/193965720-47b1b99a-8094-4a9a-93c3-5b1835b1747c.png)
+
+
 ## Delayed Response API ⏳
 
 Create a simple REST API that receives a request containing a number that represents a delay in milliseconds. The API should respond to the request after the delay specified in the request has expired.
