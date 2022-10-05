@@ -54,8 +54,8 @@ For this case, I wrote the exercise on the same folder as the To-Do App consider
 
 ![image](https://user-images.githubusercontent.com/98929413/194175901-b9c05aa0-7992-4da8-aad9-d44a050aedef.png)
 
-The instruction to use we can found it on this link:
-Is this syntax: 
+
+This is the syntax: 
 ```JavaScript
 Api.get("/delay/:time"), (req, res) => {
 const { time } = req.params;
