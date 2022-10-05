@@ -81,6 +81,9 @@ The API should use route parameters to get the desired delay:
 You can send any response you want after the delay has expired.
 
 If no delay is provided in the request, the API should use 1000 as default.
+
+These are screenshots of the testing in the API app of Postman:
+
 ![image](https://user-images.githubusercontent.com/98929413/194176275-a451c8ec-2a18-49e8-a396-363dae34cf63.png)
 
 ![image](https://user-images.githubusercontent.com/98929413/194176355-ff9b184f-e5d0-4023-8baf-e725fb4e1753.png)
