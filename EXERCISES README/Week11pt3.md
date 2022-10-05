@@ -50,6 +50,25 @@ Create a simple REST API that receives a request containing a number that repres
 API Requeriments:
 Use Express JS to build the API.
 
+For this case, I wrote the exercise on the same folder as the To-Do App considering that the packages were already installed in this project.
+
+![image](https://user-images.githubusercontent.com/98929413/194175901-b9c05aa0-7992-4da8-aad9-d44a050aedef.png)
+
+The instruction to use we can found it on this link:
+Is this syntax: 
+```JavaScript
+Api.get("/delay/:time"), (req, res) => {
+const { time } = req.params;
+
+console.log(time);
+setTimeout(() => {
+  res.send({ message: "This is a delayed response" });
+ }, time);
+ });
+```
+The instruction is found in the official documentation of [Express Js](http://expressjs.com/en/resources/middleware/response-time.html)
+
+
 Use any port you want for the API.
 
 The API should use route parameters to get the desired delay:
@@ -62,3 +81,9 @@ The API should use route parameters to get the desired delay:
 You can send any response you want after the delay has expired.
 
 If no delay is provided in the request, the API should use 1000 as default.
+![image](https://user-images.githubusercontent.com/98929413/194176275-a451c8ec-2a18-49e8-a396-363dae34cf63.png)
+
+![image](https://user-images.githubusercontent.com/98929413/194176355-ff9b184f-e5d0-4023-8baf-e725fb4e1753.png)
+
+
+
