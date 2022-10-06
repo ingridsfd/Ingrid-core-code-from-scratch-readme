@@ -14,6 +14,8 @@ This is the logic in the index.js file:
 
 ![image](https://user-images.githubusercontent.com/98929413/194185620-a61cd234-4962-4bc6-b6bd-7bc45ee7f0e8.png)
 
+Here's the documentation for [req.params.id](https://expressjs.com/en/api.html#req.param)
+
 ```JavaScript
 const express = require('express'),
     port = 3000,
