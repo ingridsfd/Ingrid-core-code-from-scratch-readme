@@ -94,6 +94,8 @@ And finally, we obtain the data we were looking for:
 
 ...and, we're in:
 
+![SBA4](https://user-images.githubusercontent.com/98929413/194489319-f1f38bcd-307f-4a51-b49f-ef6e71e2deff.gif)
+
 
 
 # Week challenges (Thursday) 💻
