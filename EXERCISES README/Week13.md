@@ -52,4 +52,24 @@ Abstraction: abstract layers. The communication among components is through inte
 
 Check another [S.O.L.I.D](https://www.youtube.com/watch?v=XzdhzyAukMM) video
 
+1. Single Responsibility:
 
+There's only one reason to change the design of the project, always remembering one thing is always in charge of only one.
+And when change is necessary.
+
+2. Open Closed:
+
+Software entities should be open for extension but closed for modiciation.
+
+3. Liskov Substitution principle:
+
+Derived objects can be substited with their own functions and targets.
+
+4. Interface Segregation Principle: 
+
+Do interfaces so you don't have to build messed classes.
+
+5. Dependency Inversion Principle:
+
+Fathers should not depend on daugther classes, but depend on abstractions.
+Details should not depend of abstractions.
