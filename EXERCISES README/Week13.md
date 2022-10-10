@@ -12,7 +12,7 @@ Work on your project
 
 # Week challenges (Thursday) 💻
 
-Check [S.O.L.I.D](https://www.youtube.com/watch?v=2X50sKeBAcQ) video
+1. [x] Check [S.O.L.I.D](https://www.youtube.com/watch?v=2X50sKeBAcQ) video
 
 Tech branch to remember the name of 5 principles in programming:
 
@@ -50,7 +50,7 @@ Tener una clase gigante que defina todas las funciones, it's not okay. That's wh
 
 Abstraction: abstract layers. The communication among components is through interfaces. The individuality of the components allows to make changes without changing the system design. 
 
-Check another [S.O.L.I.D](https://www.youtube.com/watch?v=XzdhzyAukMM) video
+2. [x] Check another [S.O.L.I.D](https://www.youtube.com/watch?v=XzdhzyAukMM) video
 
 1. Single Responsibility:
 
