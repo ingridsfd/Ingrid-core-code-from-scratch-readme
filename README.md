@@ -1,5 +1,5 @@
 # Description
-This is the repository where my journey starts. Helpful to track my progess and recent learning.
+This is the repository that starts it all. My introduction to JavaScript and Typescript exercises. My introduction to React and Node Js.
 
 I use this as a notebook. This also helps me practice Markdown format. There is a new folder added "MoreSimpleExercises". In this folder we can find parallel exercises to the ones I'm learning at CoreCode so I can have a better grasp of the concepts we are learning simultaneously. These exercises are referenced from CodeCademy.
 
